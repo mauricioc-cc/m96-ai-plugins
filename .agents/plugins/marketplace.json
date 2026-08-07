@@ -1,0 +1,20 @@
+{
+  "name": "ai-plugins-m96",
+  "interface": {
+    "displayName": "M96 AI Plugins"
+  },
+  "plugins": [
+    {
+      "name": "corretor-leads",
+      "source": {
+        "source": "local",
+        "path": "./plugins/corretor-leads"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
