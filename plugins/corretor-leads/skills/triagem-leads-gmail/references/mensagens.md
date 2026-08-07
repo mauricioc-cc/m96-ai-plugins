@@ -4,7 +4,7 @@
 
 - Escrever em português brasileiro natural, cordial e direto.
 - Usar o nome do lead quando confirmado.
-- Mencionar o imóvel ou interesse específico para demonstrar contexto.
+- Aplicar `contextualizacao.md` e mencionar o imóvel ou interesse com apenas um ou dois detalhes concretos que ajudem o lead a reconhecer o contato.
 - Responder primeiro à pergunta já feita.
 - Fazer apenas uma pergunta principal por mensagem.
 - Propor um próximo passo simples: responder ao e-mail, informar preferência ou combinar conversa.
@@ -15,7 +15,7 @@
 ## Primeiro contato
 
 1. Cumprimento com nome.
-2. Referência ao imóvel ou anúncio.
+2. Referência natural à origem e ao imóvel ou anúncio, sem sugerir rastreamento do comportamento do lead.
 3. Resposta ao que já puder ser respondido com segurança.
 4. Uma pergunta útil para avançar.
 5. Assinatura existente do corretor, quando disponível no histórico.
