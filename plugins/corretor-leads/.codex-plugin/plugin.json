@@ -1,6 +1,6 @@
 {
   "name": "corretor-leads",
-  "version": "0.5.0",
-  "description": "Prioriza leads imobiliários e prepara contatos contextuais por e-mail, WhatsApp e telefone com revisão humana.",
+  "version": "0.6.0",
+  "description": "Prioriza leads imobiliários do Hinc e de outras fontes e prepara contatos contextuais com revisão humana.",
   "skills": "./skills/"
 }
