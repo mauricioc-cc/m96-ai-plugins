@@ -5,7 +5,7 @@ Oferecer ligação apenas quando uma conversa síncrona puder avançar o atendim
 ## Pedido de autorização
 
 - Sugerir primeiro uma mensagem curta por WhatsApp quando não houver autorização clara para ligação.
-- Identificar o corretor e mencionar brevemente o imóvel ou interesse.
+- Identificar o corretor e mencionar brevemente o imóvel ou interesse, aplicando as regras de `contextualizacao.md`.
 - Fazer uma pergunta fácil de responder, como `Posso te ligar agora ou você prefere outro horário?`.
 - Quando houver horários reais disponíveis, oferecer no máximo duas opções concretas.
 - Não inventar disponibilidade, não pressionar e não afirmar que a ligação já está agendada.
