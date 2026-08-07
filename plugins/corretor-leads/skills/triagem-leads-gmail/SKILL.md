@@ -21,13 +21,16 @@ Usar as ferramentas do Gmail para pesquisar, ler e criar rascunhos. Se o Gmail n
 7. Aplicar os critérios de `references/priorizacao.md`. Basear cada pontuação em evidências presentes nas mensagens; marcar como desconhecido o que não estiver disponível.
 8. Exibir uma tabela concisa com: prioridade, nome ou identificador, data, imóvel/interesse, canais disponíveis, sinais observados, próximo passo e motivo da posição.
 9. Para cada lead priorizado com telefone válido, gerar imediatamente um rascunho curto e um link de WhatsApp preenchido conforme `references/whatsapp.md`. O link deve apenas abrir a conversa para revisão; nunca afirmar que a mensagem foi enviada.
-10. Só criar rascunhos de e-mail no Gmail depois que o usuário escolher os leads ou pedir explicitamente rascunhos para um conjunto não ambíguo.
-11. Criar um rascunho de e-mail por lead seguindo `references/mensagens.md`. Responder na conversa existente quando isso preservar o contexto; criar novo e-mail apenas quando não houver thread adequada.
-12. Após criar cada rascunho de e-mail, informar claramente que ele não foi enviado e fornecer o link retornado pelo Gmail para revisão.
+10. Depois que o usuário escolher os leads a contatar, gerar a prévia de cada e-mail no chat seguindo `references/mensagens.md`. Mostrar destinatário, assunto e corpo completo antes de qualquer ação no Gmail.
+11. Após cada prévia, oferecer três opções claras: `Enviar pelo ChatGPT`, `Editar no Gmail` ou `Ajustar aqui no chat`.
+12. Se o usuário escolher `Enviar pelo ChatGPT`, enviar somente depois dessa escolha explícita. Responder na conversa existente quando isso preservar o contexto; criar novo e-mail apenas quando não houver thread adequada. Depois, confirmar o envio com destinatário e assunto.
+13. Se o usuário escolher `Editar no Gmail`, criar um rascunho com exatamente a última versão exibida e fornecer o link retornado pelo Gmail. Informar claramente que o rascunho não foi enviado.
+14. Se o usuário escolher `Ajustar aqui no chat`, revisar a mensagem, mostrar novamente a prévia completa e reapresentar as três opções. Não enviar nem criar rascunho antes da nova escolha.
 
 ## Regras
 
-- Nunca enviar e-mail automaticamente. Criar rascunhos para revisão humana.
+- Nunca enviar e-mail antes de mostrar no chat o destinatário, o assunto e o corpo completo e receber uma escolha explícita de envio.
+- Para vários e-mails, aceitar envio em lote somente quando o usuário identificar claramente o conjunto já revisado, por exemplo `Enviar os cinco`.
 - Nunca enviar mensagens pelo WhatsApp. Fornecer somente o texto sugerido e o link de composição.
 - Não gerar link de WhatsApp para número incompleto, ambíguo, inválido ou de quem pediu para não ser contatado.
 - Não prometer disponibilidade, preço, desconto, condição comercial, financiamento ou prazo que não conste nas mensagens.
@@ -45,3 +48,4 @@ Usar as ferramentas do Gmail para pesquisar, ler e criar rascunhos. Se o Gmail n
 - "Priorize quem perguntou sobre apartamentos de três quartos em Belo Horizonte."
 - "Crie respostas para os dez leads mais quentes, mas não envie."
 - "Mostre os melhores leads e já deixe as mensagens de WhatsApp prontas."
+- "Mostre as respostas por e-mail e depois me deixe escolher entre enviar ou editar no Gmail."
