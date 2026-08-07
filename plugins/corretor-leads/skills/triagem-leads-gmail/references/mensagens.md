@@ -30,3 +30,19 @@
 ## Informação insuficiente
 
 Não inventar contexto. Criar uma resposta curta pedindo o dado mínimo necessário, como bairro, faixa de valor, finalidade, número de quartos ou melhor horário para contato.
+
+## Prévia e aprovação
+
+Antes de qualquer envio ou criação de rascunho, mostrar no chat:
+
+- `Para:` com o destinatário exato;
+- `Assunto:` preservando a conversa existente quando for uma resposta;
+- `Mensagem:` com o corpo completo.
+
+Depois da prévia, oferecer:
+
+1. **Enviar pelo ChatGPT** — enviar pelo Gmail somente após a escolha explícita do usuário.
+2. **Editar no Gmail** — criar um rascunho idêntico à prévia e entregar o link retornado pelo Gmail.
+3. **Ajustar aqui no chat** — coletar a alteração, exibir uma nova prévia completa e pedir nova escolha.
+
+Nunca tratar silêncio, comentário genérico ou aprovação de outro lead como autorização para enviar. Para envio em lote, confirmar que a escolha menciona inequivocamente o conjunto de destinatários já revisado.
