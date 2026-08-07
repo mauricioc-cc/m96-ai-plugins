@@ -31,7 +31,7 @@
 
 Não inventar contexto. Criar uma resposta curta pedindo o dado mínimo necessário, como bairro, faixa de valor, finalidade, número de quartos ou melhor horário para contato.
 
-## Prévia e aprovação
+## Modo padrão: prévia e aprovação
 
 Antes de qualquer envio ou criação de rascunho, mostrar no chat:
 
@@ -46,3 +46,5 @@ Depois da prévia, oferecer:
 3. **Ajustar aqui no chat** — coletar a alteração, exibir uma nova prévia completa e pedir nova escolha.
 
 Nunca tratar silêncio, comentário genérico ou aprovação de outro lead como autorização para enviar. Para envio em lote, confirmar que a escolha menciona inequivocamente o conjunto de destinatários já revisado.
+
+Quando o corretor dispensar explicitamente a revisão para um conjunto definido, aplicar `envio-automatico.md` em vez deste fluxo de prévia.
