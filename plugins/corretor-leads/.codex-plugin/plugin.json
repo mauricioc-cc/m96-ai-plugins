@@ -1,6 +1,6 @@
 {
   "name": "corretor-leads",
-  "version": "0.2.0",
-  "description": "Prioriza leads imobiliários recebidos no Gmail e cria rascunhos personalizados para e-mail e WhatsApp.",
+  "version": "0.3.0",
+  "description": "Prioriza leads imobiliários e prepara contatos por e-mail e WhatsApp com revisão humana.",
   "skills": "./skills/"
 }
