@@ -15,9 +15,10 @@ Gerar uma mensagem que facilite uma resposta genuína. Não prometer taxa de res
 ## Redação
 
 - Escrever em português brasileiro natural, cordial e direto.
+- Aplicar `contextualizacao.md` e usar no máximo um ou dois detalhes concretos do anúncio.
 - Manter entre 35 e 70 palavras, preferencialmente em 2 a 4 frases curtas.
 - Identificar o corretor pelo nome quando essa informação estiver disponível.
-- Mencionar o imóvel, anúncio, bairro ou preferência que originou o contato.
+- Mencionar naturalmente a origem, o imóvel, o bairro ou a preferência que motivou o contato, sem sugerir que o comportamento do lead foi rastreado.
 - Responder brevemente à pergunta do lead quando houver uma resposta confirmada.
 - Encerrar com uma única pergunta simples, específica e fácil de responder.
 - Preferir perguntas que avancem a conversa, como confirmar se o interesse continua ou escolher entre dois próximos passos realmente disponíveis.
