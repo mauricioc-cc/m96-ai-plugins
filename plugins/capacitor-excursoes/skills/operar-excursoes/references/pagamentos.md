@@ -21,8 +21,21 @@ Relacionar o pagamento ao pedido original, que contém os dados de todos os pass
 5. Comparar recebido e esperado.
 6. Classificar como candidato a total, parcial ou pendente.
 7. Mostrar a sugestão para Frederico confirmar antes de editar o TXT.
+8. Depois da confirmação, atualizar o TXT e, se habilitado, registrar no financeiro somente o valor efetivamente recebido.
 
 Frederico normalmente faz conferência visual rápida. Quando percebe comportamento fora do comum, consulta o extrato. Próximo ao evento, revisa em lote os pagamentos. O plugin deve destacar casos para essa conferência, não alegar acesso ao extrato.
+
+## Integração com o financeiro
+
+Seguir `financeiro.md`.
+
+- `EVENTO PG` indica a etapa operacional do e-mail, não o valor da receita.
+- `#` indica pagamento total no TXT, mas o financeiro exige valor conhecido.
+- `/` gera receita somente pelo valor parcial confirmado.
+- `@` e valores ainda esperados podem alimentar `valor_pendente`, nunca `receita_recebida`.
+- Reprocessar o mesmo comprovante não pode criar outra movimentação.
+- Uma segunda parcela confirmada é uma nova movimentação ligada à mesma reserva.
+- Se houver valor recebido sem vínculo inequívoco com um evento, perguntar qual evento antes de registrar.
 
 ## Ordem e veículo
 
