@@ -1,8 +1,16 @@
 # Links de WhatsApp
 
-## Regra principal
+Nunca enviar mensagens pelo WhatsApp. Entregar o texto e um link que abra a composição para revisão.
 
-Nunca enviar mensagens pelo WhatsApp. Entregar o texto sugerido e um link que abra a composição para revisão.
+## Situação do grupo
+
+Interpretar no TXT operacional:
+
+- `W`: passageiro já está no grupo;
+- `N`: ainda não está no grupo ou não enviou contato;
+- `X`: não quer ou não tem WhatsApp.
+
+Quando houver link confirmado do grupo, poder incluí-lo na resposta de reserva por e-mail. Não inventar link nem afirmar que a pessoa foi adicionada.
 
 ## Telefone
 
@@ -13,16 +21,13 @@ Nunca enviar mensagens pelo WhatsApp. Entregar o texto sugerido e um link que ab
 
 ## Mensagem
 
-- Usar o nome quando confirmado.
-- Identificar Capacitor Excursões e Frederico quando adequado.
-- Mencionar evento, data e ação necessária.
-- Manter o texto curto quando a finalidade for confirmação, pendência ou aviso.
-- Para divulgação completa, usar o modelo de evento e manter blocos legíveis.
-- Não inserir documento completo, dados bancários ou informações de outros passageiros.
+Reaproveitar o modelo real fornecido por Frederico. Quando não houver:
+
+- usar nome, evento, data e ação necessária;
+- manter a mensagem curta para pendência ou aviso;
+- não inserir documento, dados bancários ou informações de outras pessoas;
+- usar a lista 3, sem documentos, para chamada e publicação no grupo.
 
 ## URL
 
-1. Codificar a mensagem integralmente em URL encoding UTF-8.
-2. Montar `https://wa.me/TELEFONE?text=MENSAGEM_CODIFICADA`.
-3. Mostrar a mensagem em texto e o link Markdown `Abrir no WhatsApp`.
-4. Informar que o link abre a composição e não envia automaticamente.
+Codificar a mensagem em UTF-8 e montar `https://wa.me/TELEFONE?text=MENSAGEM_CODIFICADA`. Mostrar a mensagem e o link `Abrir no WhatsApp`. Informar que ele não envia automaticamente.
