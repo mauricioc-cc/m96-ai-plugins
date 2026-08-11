@@ -1,6 +1,6 @@
 {
   "name": "capacitor-excursoes",
-  "version": "0.1.0",
-  "description": "Organiza atendimento por e-mail, reservas, pagamentos, listas de passageiros em TXT e divulgação de excursões.",
+  "version": "0.2.0",
+  "description": "Adapta-se ao Gmail e aos TXT existentes para organizar reservas, pagamentos, passageiros e comunicações da Capacitor Excursões.",
   "skills": "./skills/"
 }
