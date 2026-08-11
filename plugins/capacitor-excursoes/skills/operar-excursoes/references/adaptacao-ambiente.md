@@ -2,7 +2,7 @@
 
 ## Princípio
 
-Descobrir antes de configurar. Não presumir acesso à conta de Gmail, às pastas do computador, aos nomes dos arquivos nem ao armazenamento usado.
+Descobrir antes de configurar. Não presumir acesso à conta de Gmail, às pastas do computador, aos nomes dos arquivos, ao armazenamento usado nem ao Google Drive.
 
 ## Gmail
 
@@ -37,6 +37,21 @@ Detectar cabeçalho, códigos, numeração, agrupamentos, ordem, notas, separado
 
 Perguntar qual fonte Frederico prefere usar para fornecer e atualizar os dados da excursão. Aceitar o processo escolhido, como formulário, e-mail anterior, texto enviado no chat, arquivo ou armazenamento conectado. Não criar um cadastro permanente sem essa escolha.
 
+## Google Drive e financeiro opcional
+
+O Google Drive é necessário apenas para o controle financeiro e não substitui os TXT.
+
+1. Perguntar uma única vez se Frederico quer habilitar o controle interno.
+2. Se aceitar, confirmar a conta Google Drive conectada.
+3. Procurar a planilha exata `Controle Financeiro — Capacitor Excursões`.
+4. Se não existir, explicar as duas abas e pedir autorização explícita antes de criá-la.
+5. Se existir mais de uma candidata, mostrar as opções e pedir que ele identifique a correta.
+6. Nunca editar outra planilha por semelhança de nome.
+7. Se não houver conexão ou autorização, marcar o financeiro como não habilitado e continuar Gmail, TXT e WhatsApp normalmente.
+8. Não pedir que Frederico abra ou mantenha a planilha; oferecer as consultas pelo chat.
+
+Seguir `financeiro.md` para criação, estrutura, privacidade e gravações.
+
 ## Mapa da operação
 
 Antes de agir, manter no contexto da execução:
@@ -48,6 +63,8 @@ Antes de agir, manter no contexto da execução:
 - arquivos derivados existentes;
 - fonte das informações do evento;
 - veículos e capacidades conhecidos;
-- link do grupo, quando confirmado.
+- link do grupo, quando confirmado;
+- estado do financeiro: não oferecido, não habilitado ou habilitado;
+- conta e referência inequívoca da planilha, quando habilitado.
 
 Se um desses itens mudar, atualizar somente o mapeamento afetado.
