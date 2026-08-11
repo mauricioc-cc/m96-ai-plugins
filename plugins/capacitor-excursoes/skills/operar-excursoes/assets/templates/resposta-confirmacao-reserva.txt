@@ -22,7 +22,7 @@ Seguem as informações gerais da excursão e também para acerto:
 {{HORARIOS_E_EMBARQUES}}
 
 # VALORES:
-- Valor por pessoa: {{VALOR_POR_PESSOA}}
+- Valor por pessoa: {{VALORES_POR_PASSAGEIRO}}
 - Quantidade de vagas: {{QUANTIDADE}}
 - Total: {{VALOR_TOTAL}}
 - Prazo: {{PRAZO_DE_PAGAMENTO}}
@@ -32,7 +32,7 @@ Seguem as informações gerais da excursão e também para acerto:
 
 {{REGULAMENTO_E_ORIENTACOES}}
 
-Tenho sua permissão para adicionar você ao grupo de WhatsApp da viagem?
+{{LINK_OU_ORIENTACAO_DO_GRUPO_WHATSAPP}}
 
 Dúvidas: {{CONTATO_CAPACITOR}}
 
