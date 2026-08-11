@@ -1,61 +1,58 @@
-# Fluxo e estados da operação
+# Fluxo confirmado
 
-## Fontes
+## Fontes atuais
 
-- Gmail: solicitações, comprovantes, correções, dúvidas e cancelamentos.
-- Cadastro do evento: informações comerciais e logísticas confirmadas.
-- Lista operacional TXT: registro acumulado das reservas.
-- Lista final TXT: manifesto entregue à transportadora.
+- Gmail: reservas, respostas, comprovantes, correções e cancelamentos.
+- Formulário de WhatsApp: informações divulgadas sobre a excursão.
+- Respostas de eventos anteriores: base normalmente copiada e ajustada para pagamento e regulamento.
+- TXT operacional: ordem de chegada, controle de pagamento e dimensão da excursão.
+- TXT da agência: passageiros por cidade, com documentos.
+- TXT da chamada: passageiros por cidade, sem documentos.
 
-Quando as fontes divergirem, não escolher silenciosamente. Mostrar a divergência e pedir decisão quando ela alterar vaga, pagamento, documento, veículo, horário ou embarque.
+As informações do evento podem estar distribuídas entre memória, formulário, e-mails e arquivos. Não escolher silenciosamente entre dados divergentes.
 
-## Dados do evento
+## Gmail por evento
 
-Registrar, quando disponíveis:
+Frederico usa três etiquetas ou pastas com o nome do evento:
 
-- nome, data, local e endereço;
-- links do evento e dos ingressos;
-- preço, parcelamento, prazo e instruções de pagamento;
-- cidades, pontos, endereços e horários de encontro e partida;
-- veículos, responsáveis e capacidade;
-- regras, recomendações e informações de contato.
+- `EVENTO`: reservas recebidas e ainda não respondidas.
+- `EVENTO OK`: reservas já respondidas.
+- `EVENTO PG`: cliente enviou comprovante.
 
-## Dados da reserva
+A etiqueta `PG` significa comprovante recebido, não necessariamente pagamento integral validado.
 
-Registrar por passageiro:
+## Símbolos no TXT operacional
 
-- identificador interno;
-- nome completo;
-- documento;
-- telefone e e-mail;
-- responsável pelo contato e grupo da reserva;
-- ponto de embarque;
-- estado da reserva;
-- valor esperado, recebido e data;
-- referência do e-mail ou comprovante;
-- autorização para grupo de WhatsApp;
-- correções, cancelamento e notas manuais.
+### WhatsApp
 
-## Estados provisórios
+- `W`: está no grupo de WhatsApp.
+- `N`: ainda não está no grupo ou não enviou o contato.
+- `X`: não quer ou não tem WhatsApp.
 
-Usar estes estados como esqueleto até Frederico confirmar as regras definitivas:
+### Pagamento
 
-- `PENDENTE_DADOS`: faltam dados necessários.
-- `RESERVADO`: vaga registrada, sem pagamento confirmado.
-- `AGUARDANDO_PAGAMENTO`: instruções enviadas e pagamento pendente.
-- `PAGAMENTO_EM_ANALISE`: comprovante recebido, ainda não validado.
-- `PAGO`: pagamento confirmado.
-- `CORRECAO_PENDENTE`: há divergência que impede fechar o cadastro.
-- `CANCELADO`: reserva cancelada.
-- `LISTA_FINAL`: passageiro incluído no manifesto operacional.
+- `#`: pagamento total.
+- `/`: pagamento parcial.
+- `@`: não pago.
 
-Não presumir que "reserva confirmada" e "pagamento confirmado" são equivalentes.
+Preservar variações de escrita e notas existentes no arquivo real.
 
-## Regras de atualização
+## Alterações
 
-1. Vincular a mensagem à excursão correta.
-2. Vincular passageiros do mesmo pedido sem fundir cadastros individuais.
-3. Detectar duplicidade por combinação de evento, nome, documento, e-mail e telefone; não depender de um único campo quando houver conflito.
-4. Guardar a informação anterior como nota quando uma correção material for aplicada.
-5. Marcar comprovante recebido antes de marcar pagamento confirmado, salvo regra explícita de Frederico.
-6. Não remover cancelados do histórico operacional; excluí-los da lista final e registrar o motivo quando informado.
+Aceitar correção, troca ou cancelamento somente quando formalizado por e-mail. Atualizar diretamente o TXT vigente depois de identificar inequivocamente o passageiro e o evento. Não apagar notas necessárias para compreender pagamento ou mudança anterior.
+
+## Veículos
+
+Usar a ordem de chegada das reservas como regra principal. Em excursões grandes, Frederico pode separar por logística:
+
+- Guaratinguetá, Pindamonhangaba, Tremembé e Taubaté;
+- Caçapava, São José dos Campos e Jacareí.
+
+Atraso no pagamento pode fazer a reserva cair na ordem e ir para veículo ou van extra. Tratar isso como decisão manual de Frederico: apresentar ordem, pagamento e capacidade, mas não remanejar sozinho.
+
+## Informações variáveis
+
+- Horários dependem de local, horário do show, perfil do público e dia.
+- Guaratinguetá e Pindamonhangaba normalmente entram apenas quando há ônibus.
+- Van normalmente parte a partir de Tremembé.
+- Preços históricos informados não são tabela permanente; confirmar os valores do evento atual.
