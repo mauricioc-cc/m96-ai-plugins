@@ -1,0 +1,6 @@
+{
+  "name": "capacitor-excursoes",
+  "version": "0.1.0",
+  "description": "Organiza atendimento por e-mail, reservas, pagamentos, listas de passageiros em TXT e divulgação de excursões.",
+  "skills": "./skills/"
+}
