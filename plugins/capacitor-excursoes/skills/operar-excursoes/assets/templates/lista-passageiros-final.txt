@@ -7,6 +7,6 @@
 - Embarque {{CIDADE}}:
 {{PONTO_DE_EMBARQUE}}
 
-{{NUMERO}} {{NOME_COMPLETO}} --- Documento: {{DOCUMENTO}}
+{{NUMERO}} {{NOME_COMPLETO}} ---------------- Documento: {{DOCUMENTO}}
 
 {{PROXIMOS_PONTOS_E_PASSAGEIROS}}
