@@ -2,22 +2,20 @@
 # {{LOCAL}}
 # {{DATA}}
 
-# VEÍCULOS PREVISTOS:
-{{VEICULOS_E_CAPACIDADES}}
+- {{VEICULOS_E_CAPACIDADES}}
 
-# RESERVAS:
-
-# {{NUMERO}} - {{NOME_COMPLETO}} --- Documento: {{DOCUMENTO}} --- {{ESTADO}}
-- Contato: {{TELEFONE}} / {{EMAIL}}
-- Embarque: {{PONTO_DE_EMBARQUE}}
-- Grupo/Responsável: {{RESPONSAVEL}}
-- Pagamento esperado: {{VALOR_ESPERADO}}
-- Pagamento recebido: {{VALOR_RECEBIDO}} em {{DATA_DO_PAGAMENTO}}
-- Comprovante: {{REFERENCIA_DO_COMPROVANTE}}
-- WhatsApp: {{AUTORIZACAO_GRUPO}}
-- Notas: {{NOTAS}}
+# {{NUMERO}}{{STATUS_WHATSAPP}} - {{NOME_COMPLETO}} ---------------- Documento: {{DOCUMENTO}} --- {{STATUS_PAGAMENTO}} {{DETALHE_PAGAMENTO}}
+- Embarque {{CIDADE}}: {{PONTO_DE_EMBARQUE}}
+{{OBSERVACOES}}
 
 ============================================
 
-# PONTOS DE EMBARQUE:
-{{PONTOS_DE_EMBARQUE}}
+# WHATSAPP:
+# W = no grupo
+# N = ainda não está no grupo ou não enviou contato
+# X = não quer ou não tem WhatsApp
+
+# PAGAMENTO:
+# # = pago total
+# / = pago parcial
+# @ = não pago
