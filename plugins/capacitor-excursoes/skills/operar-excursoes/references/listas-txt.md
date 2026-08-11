@@ -1,51 +1,58 @@
 # Listas TXT
 
-## Lista operacional
+## Regra de adaptação
 
-Usar `../assets/templates/lista-reservas.txt` para um evento novo. Manter:
+Ler o arquivo inteiro antes de editar. Preservar nome, ordem, agrupamentos, espaços, códigos, notas, codificação e quebras de linha quando tecnicamente possível. Usar os templates apenas quando não existir um exemplo vigente.
 
-- cabeçalho do evento;
-- veículos e capacidades previstos;
-- um registro por passageiro;
-- agrupamento visual das pessoas da mesma reserva;
-- ponto de embarque;
-- estado e histórico do pagamento;
-- data das atualizações;
-- notas e códigos manuais usados por Frederico.
+Quando o TXT estiver somente no computador, pedir que Frederico o anexe. Entregar uma cópia atualizada para substituição manual. Se ele escolher um armazenamento conectado, editar apenas o arquivo e a pasta confirmados.
 
-Não reinterpretar códigos como W, N ou X enquanto seus significados não estiverem confirmados.
+## Lista 1: operacional
+
+Usar como fonte principal para:
+
+- ordem de chegada;
+- quantidade e tipo provável de veículo;
+- controle financeiro;
+- vínculo entre passageiros da mesma reserva;
+- cidade de embarque;
+- situação no grupo de WhatsApp.
+
+Preservar:
+
+- `W`, `N` e `X` para WhatsApp;
+- `#`, `/` e `@` para pagamento;
+- valor e data escritos por Frederico;
+- observações e códigos adicionais encontrados no arquivo real.
+
+Não ordenar novamente a lista operacional. A ordem de reserva tem efeito na escolha do veículo.
+
+## Lista 2: agência
+
+Gerar por veículo, cidade e ordem de embarque, incluindo nome completo e RG ou CPF. Não incluir pagamento, telefone ou códigos internos. Usar `../assets/templates/lista-passageiros-final.txt` somente quando não houver modelo real.
+
+## Lista 3: chamada e grupo
+
+Gerar por cidade e ordem de embarque, sem documentos. Usar para impressão, chamada da viagem e publicação no grupo de WhatsApp. Usar `../assets/templates/lista-chamada-whatsapp.txt` somente quando não houver modelo real.
 
 ## Atualização
 
-1. Ler o arquivo inteiro antes de editar.
-2. Preservar ordem, notas e espaçamento quando a mudança for pequena.
-3. Localizar o passageiro por mais de um identificador quando houver homônimos.
-4. Acrescentar correções e pagamentos sem apagar o histórico relevante.
-5. Informar passageiros adicionados, alterados, cancelados ou deixados pendentes.
-6. Conferir a quantidade total e a capacidade disponível após cada lote.
+1. Comparar e-mail e TXT.
+2. Localizar por nome e documento; usar telefone ou e-mail apenas para desambiguar.
+3. Inserir novas reservas no fim da ordem existente.
+4. Atualizar pagamento sem perder valor, data ou observações.
+5. Aplicar correções formalizadas por e-mail.
+6. Não remover cancelados silenciosamente; seguir o padrão encontrado no arquivo ou pedir decisão.
+7. Informar adicionados, alterados, cancelados e pendentes.
+8. Recontar passageiros e comparar com a capacidade.
 
-## Lista final
+## Validação
 
-Usar `../assets/templates/lista-passageiros-final.txt`. Organizar:
+Apontar:
 
-1. por veículo;
-2. pela ordem geográfica da rota;
-3. por ponto de embarque;
-4. pelo horário de encontro e partida;
-5. com numeração contínua dentro do veículo.
-
-Incluir nome completo e documento. Incluir telefone, e-mail, pagamento ou notas somente quando Frederico disser que a transportadora precisa deles.
-
-## Validação final
-
-Antes de finalizar, apresentar:
-
-- total geral e total por veículo;
-- ocupação e vagas restantes;
 - duplicidades possíveis;
-- documentos ausentes ou inválidos;
-- passageiros sem embarque;
-- reservas não pagas ou em análise;
-- divergências entre Gmail e TXT.
-
-Não misturar passageiros de excursões diferentes nem remover pendências silenciosamente.
+- documentos ou embarques ausentes;
+- comprovantes sem correspondência;
+- pagamentos parciais e não pagos;
+- pessoas `N` ou `X`;
+- lotação e vagas restantes;
+- divergências entre as três listas.
