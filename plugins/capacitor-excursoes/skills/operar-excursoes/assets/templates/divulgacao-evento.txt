@@ -1,0 +1,32 @@
+INFORMAÇÕES SOBRE A NOSSA EXCURSÃO:
+
+# Evento: {{EVENTO}}
+# Data: {{DATA}}
+# Local: {{LOCAL}}
+
+# HORÁRIOS:
+{{HORARIOS_DE_SAIDA}}
+
+# Valor da passagem (ida e volta): {{VALOR}}
+{{PARCELAMENTO}}
+
+# {{TIPO_DE_VEICULO}}
+# Guia acompanhante
+# Seguro viagem
+{{SERVICO_DE_BORDO}}
+
+# PROCEDIMENTO DE RESERVA:
+Envie um e-mail para {{EMAIL_CAPACITOR}}
+Com o assunto: "{{ASSUNTO_DA_RESERVA}}"
+
+# Informações no e-mail, para todas as pessoas interessadas:
+1 - Nome completo;
+2 - Documento;
+3 - Telefone/WhatsApp;
+4 - Local de embarque.
+
+# PONTOS DE EMBARQUE:
+{{PONTOS_DE_EMBARQUE}}
+
+Qualquer dúvida, estamos à disposição.
+Capacitor Excursões te leva!
