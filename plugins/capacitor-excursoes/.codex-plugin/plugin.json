@@ -1,6 +1,6 @@
 {
   "name": "capacitor-excursoes",
-  "version": "0.2.0",
-  "description": "Adapta-se ao Gmail e aos TXT existentes para organizar reservas, pagamentos, passageiros e comunicações da Capacitor Excursões.",
+  "version": "0.3.0",
+  "description": "Adapta-se ao Gmail e aos TXT existentes para organizar reservas, pagamentos, passageiros e comunicações, com controle financeiro operacional opcional no Google Sheets.",
   "skills": "./skills/"
 }
