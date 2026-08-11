@@ -1,28 +1,9 @@
 # Divulgação de eventos
 
-Usar `../assets/templates/divulgacao-evento.txt` como base.
+Usar primeiro o formulário de WhatsApp e os textos reais fornecidos por Frederico. Usar `../assets/templates/divulgacao-evento.txt` apenas quando não houver modelo daquele evento.
 
-## Dados mínimos
+Conferir evento, data, local, horários, cidades, preços, veículo, procedimento de reserva, contato e regras. Não tratar valores históricos como tabela fixa.
 
-- evento e artista;
-- data e local;
-- cidades e horários de saída;
-- preço e forma de pagamento;
-- estrutura da viagem;
-- procedimento de reserva;
-- pontos de embarque;
-- contato oficial.
+Preservar o estilo usado pela Capacitor. Não criar novos formatos ou canais por iniciativa própria. Gerar somente a variação pedida, como formulário de WhatsApp, resposta de e-mail ou texto curto já usado na rotina.
 
-Se um dado mínimo estiver ausente, manter placeholder ou pedir confirmação. Não copiar horários, preços, endereços, links ou regras de outro evento.
-
-## Variações
-
-A partir do mesmo cadastro confirmado, poder gerar:
-
-- texto completo para e-mail;
-- texto de divulgação para WhatsApp;
-- versão curta para redes sociais;
-- resposta curta para interessados;
-- lembrete de prazo ou pagamento.
-
-Preservar o jeito de escrever da Capacitor quando houver modelo anterior, inclusive títulos, blocos, emojis e assinatura, sem tornar o texto difícil de ler.
+O cartaz visual é atualmente recriado no celular e divulgado no Status do WhatsApp e no Instagram. Não alterar esse processo sem pedido explícito.
