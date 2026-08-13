@@ -1,0 +1,6 @@
+{
+  "name": "controle-gastos-pessoais",
+  "version": "0.1.0",
+  "description": "Ajuda pessoas a organizar gastos pessoais usando uma planilha no Google Drive, importar faturas e comprovantes, categorizar despesas, acompanhar parcelamentos e gerar análises financeiras simples.",
+  "skills": "./skills/"
+}
