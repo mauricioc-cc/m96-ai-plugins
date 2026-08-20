@@ -5,11 +5,15 @@
 - Gmail: reservas, respostas, comprovantes, correções e cancelamentos.
 - Formulário de WhatsApp: informações divulgadas sobre a excursão.
 - Respostas de eventos anteriores: base normalmente copiada e ajustada para pagamento e regulamento.
+- Pasta local da excursão: reúne os arquivos daquele evento.
+- TXT de informações gerais: preços, horários, embarques, endereços, veículos e regras.
 - TXT operacional: ordem de chegada, controle de pagamento e dimensão da excursão.
 - TXT da agência: passageiros por cidade, com documentos.
 - TXT da chamada: passageiros por cidade, sem documentos.
 
-As informações do evento podem estar distribuídas entre memória, formulário, e-mails e arquivos. Não escolher silenciosamente entre dados divergentes.
+A estrutura local confirmada é `Fre Trabalho/Capacitor Excursões/AAAA/MM-DD Artista - Local/`. Consultar `arquivos-evento.md` para os nomes confirmados.
+
+Não escolher silenciosamente entre Gmail, formulário e TXT quando houver divergência.
 
 ## Gmail por evento
 
@@ -40,6 +44,8 @@ Preservar variações de escrita e notas existentes no arquivo real.
 ## Alterações
 
 Aceitar correção, troca ou cancelamento somente quando formalizado por e-mail. Atualizar diretamente o TXT vigente depois de identificar inequivocamente o passageiro e o evento. Não apagar notas necessárias para compreender pagamento ou mudança anterior.
+
+Quando uma alteração modificar preço, horário, embarque, endereço, veículo ou regra geral, atualizar também o TXT correspondente após confirmação.
 
 ## Veículos
 
