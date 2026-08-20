@@ -2,7 +2,7 @@
 
 ## Estrutura confirmada
 
-Frederico organiza as excursões localmente nesta hierarquia:
+Frederico organiza as excursões nesta hierarquia:
 
 `Fre Trabalho/Capacitor Excursões/AAAA/MM-DD Artista - Local/`
 
@@ -10,15 +10,18 @@ Exemplo confirmado:
 
 `Fre Trabalho/Capacitor Excursões/2026/04-28 Bad Religion - Espaço Unimed/`
 
+A mesma hierarquia deve ser usada no computador local ou no Google Drive, conforme a escolha registrada em `armazenamento.md`. Assim, mudar o lugar de armazenamento não muda o mapa mental da operação.
+
 Para uma excursão nova:
 
-1. usar o ano com quatro dígitos;
-2. nomear a pasta como `MM-DD Artista - Local`;
-3. manter todos os TXT daquela excursão dentro dessa pasta;
-4. não renomear nem mover pastas antigas automaticamente;
-5. se já existir uma pasta semelhante, confirmar a pasta exata antes de gerar arquivos.
+1. confirmar a origem vigente: Drive ou computador local;
+2. usar o ano com quatro dígitos;
+3. nomear a pasta como `MM-DD Artista - Local`;
+4. manter todos os TXT daquela excursão dentro dessa pasta;
+5. não renomear nem mover pastas antigas automaticamente;
+6. se já existir uma pasta semelhante, confirmar a pasta exata antes de gerar arquivos.
 
-O plugin não acessa essa estrutura local por conta própria. Quando os arquivos estiverem apenas no computador, pedir que Frederico anexe os TXT necessários e entregar cópias para ele salvar na pasta correspondente.
+Quando os arquivos estiverem no Drive conectado, criar ou editar somente dentro da pasta confirmada. Quando estiverem apenas no computador sem acesso autorizado, pedir que Frederico anexe os TXT necessários e entregar cópias para ele salvar na pasta correspondente.
 
 ## Nome do TXT principal
 
@@ -61,5 +64,6 @@ Não transferir automaticamente dados históricos de outra excursão. Quando uma
 - Tratar artista, data e local juntos como identidade da excursão.
 - Não misturar arquivos de shows diferentes do mesmo artista.
 - Se pasta, Gmail e TXT divergirem, mostrar a divergência e aguardar decisão.
-- Se houver dois arquivos para a mesma finalidade, comparar ambos e perguntar qual é o vigente.
+- Se houver duas pastas ou dois arquivos para a mesma finalidade, comparar quando possível e perguntar qual é o vigente.
+- Se existirem cópias local e Drive, não escolher silenciosamente nem atualizar ambas sem autorização.
 - Preservar maiúsculas, acentos e estilo encontrados nos arquivos já existentes.
