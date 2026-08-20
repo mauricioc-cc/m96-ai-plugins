@@ -2,7 +2,7 @@
 
 ## Princípio
 
-Descobrir antes de configurar. Não presumir acesso à conta de Gmail, às pastas do computador, aos arquivos nem ao Google Drive.
+Descobrir antes de configurar. Não presumir acesso à conta de Gmail, às pastas do computador, aos arquivos nem ao Google Drive. Preservar o modo de trabalho conhecido e deixar a escolha do armazenamento com Frederico.
 
 ## Gmail
 
@@ -13,7 +13,7 @@ Descobrir antes de configurar. Não presumir acesso à conta de Gmail, às pasta
 5. Observar, em mensagens de exemplo, se a etiqueta anterior é removida ou mantida.
 6. Não criar, renomear, excluir nem aplicar etiquetas antes da confirmação.
 
-## Estrutura local confirmada
+## Estrutura confirmada
 
 Frederico organiza as excursões em:
 
@@ -21,14 +21,13 @@ Frederico organiza as excursões em:
 
 Dentro da pasta de cada excursão ficam os TXT daquele evento. Para novos arquivos, seguir `arquivos-evento.md`.
 
-O plugin não tem acesso automático às pastas do computador.
+Na primeira ambientação, ler `armazenamento.md` e oferecer o Google Drive como opção de proteção, reproduzindo exatamente essa hierarquia. Não exigir migração. Registrar se a fonte vigente será Drive, computador local ou ainda não definida.
 
-- Pedir que Frederico anexe os arquivos vigentes necessários para a operação.
-- Entregar cópias atualizadas e indicar a pasta e o nome de destino.
-- Não afirmar que uma atualização foi salva no computador.
-- Não exigir migração para outro serviço.
-- Não renomear ou mover arquivos antigos sem pedido explícito.
-- Se houver armazenamento conectado no futuro, editar somente a pasta e os arquivos confirmados.
+- Se Drive for escolhido, confirmar a conta e a pasta antes de criar ou editar.
+- Se local for escolhido e houver acesso autorizado, operar somente na pasta confirmada.
+- Se não houver acesso local, pedir os arquivos vigentes e entregar cópias atualizadas com destino indicado.
+- Não afirmar que uma atualização foi salva sem confirmação técnica.
+- Não renomear, mover ou apagar arquivos antigos sem pedido explícito.
 
 ## Aprendizado dos TXT
 
@@ -56,16 +55,18 @@ Consultar esses arquivos antes de responder ou divulgar dados variáveis. Criar 
 
 ## Google Drive e financeiro opcional
 
-O Google Drive é necessário apenas para o controle financeiro e não substitui os TXT.
+O Drive pode guardar os TXT se Frederico escolher essa opção. O financeiro continua sendo um recurso separado e opcional.
 
 1. Perguntar uma única vez se Frederico quer habilitar o controle interno.
 2. Se aceitar, confirmar a conta Google Drive conectada.
 3. Procurar a planilha exata `Controle Financeiro — Capacitor Excursões`.
-4. Se não existir, explicar as duas abas e pedir autorização explícita antes de criá-la.
-5. Se existir mais de uma candidata, mostrar as opções e pedir que ele identifique a correta.
-6. Nunca editar outra planilha por semelhança de nome.
-7. Se não houver conexão ou autorização, marcar o financeiro como não habilitado e continuar Gmail, TXT e WhatsApp normalmente.
-8. Não pedir que Frederico abra ou mantenha a planilha; oferecer as consultas pelo chat.
+4. Quando os TXT também estiverem no Drive, procurar ou criar a planilha na pasta base `Fre Trabalho/Capacitor Excursões/`.
+5. Se os TXT permanecerem locais, confirmar em qual pasta do Drive a planilha deve ficar.
+6. Se a planilha não existir, explicar as duas abas e pedir autorização explícita antes de criá-la.
+7. Se existir mais de uma candidata, mostrar as opções e pedir que ele identifique a correta.
+8. Nunca editar outra planilha por semelhança de nome.
+9. Se não houver conexão ou autorização, marcar o financeiro como não habilitado e continuar Gmail, TXT e WhatsApp normalmente.
+10. Não pedir que Frederico abra ou mantenha a planilha; oferecer as consultas pelo chat.
 
 Seguir `financeiro.md` para criação, estrutura, privacidade e gravações.
 
@@ -74,14 +75,16 @@ Seguir `financeiro.md` para criação, estrutura, privacidade e gravações.
 Antes de agir, manter no contexto da execução:
 
 - artista, data e local;
+- origem vigente dos TXT: Drive, local ou não definida;
 - pasta esperada da excursão;
 - conta de Gmail confirmada;
+- conta do Drive, quando usada;
 - três etiquetas confirmadas;
 - TXT gerais e lista operacional vigentes;
 - arquivos derivados existentes;
 - veículos e capacidades conhecidos;
 - link do grupo, quando confirmado;
 - estado do financeiro: não oferecido, não habilitado ou habilitado;
-- conta e referência inequívoca da planilha, quando habilitado.
+- referência inequívoca da planilha, quando habilitado.
 
 Se um desses itens mudar, atualizar somente o mapeamento afetado.
