@@ -8,14 +8,16 @@ Este controle é operacional. Não é contabilidade, conciliação bancária, fl
 
 ## Ativação
 
-O financeiro é opcional e não bloqueia Gmail, TXT ou WhatsApp.
+O financeiro é opcional e não bloqueia Gmail, TXT ou WhatsApp. Ele independe da escolha de manter os TXT no Drive ou no computador.
 
 1. Confirmar a conta Google Drive que Frederico pretende usar.
 2. Explicar que será criada uma única planilha privada chamada `Controle Financeiro — Capacitor Excursões`.
-3. Criar a planilha somente após autorização explícita.
-4. Se já existir uma planilha com esse nome, confirmar a identidade antes de reutilizá-la; não criar duplicata automaticamente.
-5. Guardar no contexto disponível a referência inequívoca da planilha. Em novo contexto, localizá-la pelo nome e confirmar em caso de ambiguidade.
-6. Se o Drive não estiver conectado, continuar o restante da operação e informar apenas que o financeiro ainda não está habilitado.
+3. Se os TXT estiverem no Drive, localizar ou criar a planilha na pasta base `Fre Trabalho/Capacitor Excursões/`.
+4. Se os TXT estiverem locais, confirmar a pasta do Drive onde a planilha deve ficar.
+5. Criar a planilha somente após autorização explícita.
+6. Se já existir uma planilha com esse nome, confirmar a identidade antes de reutilizá-la; não criar duplicata automaticamente.
+7. Guardar no contexto disponível a referência inequívoca da planilha. Em novo contexto, localizá-la pelo nome e confirmar em caso de ambiguidade.
+8. Se o Drive não estiver conectado, continuar o restante da operação e informar apenas que o financeiro ainda não está habilitado.
 
 Para uma planilha nova, gerar e validar primeiro o arquivo de planilha e importá-lo como Google Sheets pelo Google Drive conectado. Não criar uma planilha vazia e preenchê-la de modo improvisado.
 
