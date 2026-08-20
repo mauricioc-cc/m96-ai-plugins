@@ -4,7 +4,9 @@
 
 Ler o arquivo inteiro antes de editar. Preservar nome, ordem, agrupamentos, espaços, códigos, notas, codificação e quebras de linha quando tecnicamente possível. Usar os templates apenas quando não existir um exemplo vigente.
 
-Quando o TXT estiver somente no computador, pedir que Frederico o anexe. Entregar uma cópia atualizada para substituição manual. Se ele escolher um armazenamento conectado, editar apenas o arquivo e a pasta confirmados.
+Quando o TXT estiver somente no computador, pedir que Frederico o anexe. Entregar uma cópia atualizada para ele salvar em `Fre Trabalho/Capacitor Excursões/AAAA/MM-DD Artista - Local/`.
+
+Para novos TXT principais, usar `ARTISTA DIA-DA-SEMANA DD LOCAL.txt`, conforme `arquivos-evento.md`. Não renomear listas antigas automaticamente.
 
 ## Lista 1: operacional
 
@@ -12,7 +14,7 @@ Usar como fonte principal para:
 
 - ordem de chegada;
 - quantidade e tipo provável de veículo;
-- controle financeiro;
+- controle de pagamento;
 - vínculo entre passageiros da mesma reserva;
 - cidade de embarque;
 - situação no grupo de WhatsApp.
@@ -36,19 +38,21 @@ Gerar por cidade e ordem de embarque, sem documentos. Usar para impressão, cham
 
 ## Atualização
 
-1. Comparar e-mail e TXT.
-2. Localizar por nome e documento; usar telefone ou e-mail apenas para desambiguar.
-3. Inserir novas reservas no fim da ordem existente.
-4. Atualizar pagamento sem perder valor, data ou observações.
-5. Aplicar correções formalizadas por e-mail.
-6. Não remover cancelados silenciosamente; seguir o padrão encontrado no arquivo ou pedir decisão.
-7. Informar adicionados, alterados, cancelados e pendentes.
-8. Recontar passageiros e comparar com a capacidade.
+1. Confirmar artista, data, local e pasta de destino.
+2. Comparar e-mail e TXT.
+3. Localizar por nome e documento; usar telefone ou e-mail apenas para desambiguar.
+4. Inserir novas reservas no fim da ordem existente.
+5. Atualizar pagamento sem perder valor, data ou observações.
+6. Aplicar correções formalizadas por e-mail.
+7. Não remover cancelados silenciosamente; seguir o padrão encontrado no arquivo ou pedir decisão.
+8. Informar adicionados, alterados, cancelados e pendentes.
+9. Recontar passageiros e comparar com a capacidade.
 
 ## Validação
 
 Apontar:
 
+- pasta ou arquivo de destino ambíguo;
 - duplicidades possíveis;
 - documentos ou embarques ausentes;
 - comprovantes sem correspondência;
