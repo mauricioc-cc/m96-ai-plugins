@@ -4,7 +4,7 @@
 
 Ler o arquivo inteiro antes de editar. Preservar nome, ordem, agrupamentos, espaços, códigos, notas, codificação e quebras de linha quando tecnicamente possível. Usar os templates apenas quando não existir um exemplo vigente.
 
-Quando o TXT estiver somente no computador, pedir que Frederico o anexe. Entregar uma cópia atualizada para ele salvar em `Fre Trabalho/Capacitor Excursões/AAAA/MM-DD Artista - Local/`.
+Confirmar se a fonte vigente é a pasta do Google Drive ou a pasta local. No Drive conectado, editar somente o arquivo inequivocamente identificado. Quando o TXT estiver somente no computador sem acesso autorizado, pedir que Frederico o anexe e entregar uma cópia atualizada para ele salvar em `Fre Trabalho/Capacitor Excursões/AAAA/MM-DD Artista - Local/`.
 
 Para novos TXT principais, usar `ARTISTA DIA-DA-SEMANA DD LOCAL.txt`, conforme `arquivos-evento.md`. Não renomear listas antigas automaticamente.
 
@@ -38,22 +38,24 @@ Gerar por cidade e ordem de embarque, sem documentos. Usar para impressão, cham
 
 ## Atualização
 
-1. Confirmar artista, data, local e pasta de destino.
+1. Confirmar artista, data, local, origem vigente e pasta de destino.
 2. Comparar e-mail e TXT.
 3. Localizar por nome e documento; usar telefone ou e-mail apenas para desambiguar.
 4. Inserir novas reservas no fim da ordem existente.
 5. Atualizar pagamento sem perder valor, data ou observações.
 6. Aplicar correções formalizadas por e-mail.
 7. Não remover cancelados silenciosamente; seguir o padrão encontrado no arquivo ou pedir decisão.
-8. Informar adicionados, alterados, cancelados e pendentes.
-9. Recontar passageiros e comparar com a capacidade.
+8. Salvar somente na origem autorizada e informar o caminho atualizado.
+9. Informar adicionados, alterados, cancelados e pendentes.
+10. Recontar passageiros e comparar com a capacidade.
 
 ## Validação
 
 Apontar:
 
-- pasta ou arquivo de destino ambíguo;
+- origem, pasta ou arquivo de destino ambíguo;
 - duplicidades possíveis;
+- versões divergentes entre computador e Drive;
 - documentos ou embarques ausentes;
 - comprovantes sem correspondência;
 - pagamentos parciais e não pagos;
