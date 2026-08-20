@@ -1,0 +1,44 @@
+Olá {{NOME_DO_CONTATO}}! Tudo jóia?
+
+Agradeço o contato com o Capacitor Excursões!
+
+{{ABERTURA_DO_EVENTO}}
+
+RESERVAS SOLICITADAS:
+
+{{PASSAGEIROS_CONFIRMADOS}}
+
+- Embarque: {{PONTO_DE_EMBARQUE}}
+- Endereço: {{ENDERECO_DO_EMBARQUE}}
+
+FAVOR ENVIAR O COMPROVANTE RESPONDENDO ESTE E-MAIL!
+
+Seguem as informações gerais da excursão e também para acerto:
+
+# EVENTO: {{EVENTO}}
+# DATA: {{DATA}}
+# LOCAL: {{LOCAL}}
+# HORÁRIOS E EMBARQUES:
+{{HORARIOS_E_EMBARQUES}}
+
+# VALORES:
+- Valor por pessoa: {{VALORES_POR_PASSAGEIRO}}
+- Quantidade de vagas: {{QUANTIDADE}}
+- Total: {{VALOR_TOTAL}}
+- Prazo: {{PRAZO_DE_PAGAMENTO}}
+
+# DADOS PARA PAGAMENTO:
+{{DADOS_DE_PAGAMENTO}}
+
+{{REGULAMENTO_E_ORIENTACOES}}
+
+{{LINK_OU_ORIENTACAO_DO_GRUPO_WHATSAPP}}
+
+Dúvidas: {{CONTATO_CAPACITOR}}
+
+Abraço e obrigado por escolher o Capacitor Excursões!
+
+Atenciosamente,
+Frederico Carvalho
+CAPACITOR EXCURSÕES
+{{DADOS_EMPRESARIAIS}}

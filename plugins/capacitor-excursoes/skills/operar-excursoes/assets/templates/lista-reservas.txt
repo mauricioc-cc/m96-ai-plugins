@@ -1,0 +1,21 @@
+# {{EVENTO}}
+# {{LOCAL}}
+# {{DATA}}
+
+- {{VEICULOS_E_CAPACIDADES}}
+
+# {{NUMERO}}{{STATUS_WHATSAPP}} - {{NOME_COMPLETO}} ---------------- Documento: {{DOCUMENTO}} --- {{STATUS_PAGAMENTO}} {{DETALHE_PAGAMENTO}}
+- Embarque {{CIDADE}}: {{PONTO_DE_EMBARQUE}}
+{{OBSERVACOES}}
+
+============================================
+
+# WHATSAPP:
+# W = no grupo
+# N = ainda não está no grupo ou não enviou contato
+# X = não quer ou não tem WhatsApp
+
+# PAGAMENTO:
+# # = pago total
+# / = pago parcial
+# @ = não pago
