@@ -2,7 +2,7 @@
 
 ## Princípio
 
-Descobrir antes de configurar. Não presumir acesso à conta de Gmail, às pastas do computador, aos nomes dos arquivos, ao armazenamento usado nem ao Google Drive.
+Descobrir antes de configurar. Não presumir acesso à conta de Gmail, às pastas do computador, aos arquivos nem ao Google Drive.
 
 ## Gmail
 
@@ -13,29 +13,46 @@ Descobrir antes de configurar. Não presumir acesso à conta de Gmail, às pasta
 5. Observar, em mensagens de exemplo, se a etiqueta anterior é removida ou mantida.
 6. Não criar, renomear, excluir nem aplicar etiquetas antes da confirmação.
 
-## Arquivos locais e armazenamento
+## Estrutura local confirmada
+
+Frederico organiza as excursões em:
+
+`Fre Trabalho/Capacitor Excursões/AAAA/MM-DD Artista - Local/`
+
+Dentro da pasta de cada excursão ficam os TXT daquele evento. Para novos arquivos, seguir `arquivos-evento.md`.
 
 O plugin não tem acesso automático às pastas do computador.
 
-- Se os TXT estiverem somente no computador, pedir que Frederico anexe os arquivos vigentes.
-- Se houver armazenamento conectado, pedir que ele indique a pasta e os arquivos exatos.
+- Pedir que Frederico anexe os arquivos vigentes necessários para a operação.
+- Entregar cópias atualizadas e indicar a pasta e o nome de destino.
+- Não afirmar que uma atualização foi salva no computador.
 - Não exigir migração para outro serviço.
-- Não afirmar que uma atualização local foi salva quando apenas uma nova cópia foi gerada.
-- Ao gerar cópia, preservar o nome original quando isso não causar sobrescrita ambígua e informar qual arquivo deve ser substituído.
+- Não renomear ou mover arquivos antigos sem pedido explícito.
+- Se houver armazenamento conectado no futuro, editar somente a pasta e os arquivos confirmados.
 
 ## Aprendizado dos TXT
 
 Usar pelo menos um arquivo real de cada tipo disponível:
 
-1. lista operacional;
-2. lista da agência;
-3. lista da chamada.
+1. informações gerais do evento;
+2. lista operacional;
+3. lista da agência;
+4. lista da chamada.
 
-Detectar cabeçalho, códigos, numeração, agrupamentos, ordem, notas, separadores e campos. Tratar o modelo real como superior aos templates do plugin. Não normalizar o arquivo apenas por estética.
+Detectar cabeçalho, códigos, numeração, agrupamentos, ordem, notas, separadores e campos. Tratar o arquivo real como superior aos templates do plugin. Não normalizar apenas por estética.
 
 ## Informações do evento
 
-Perguntar qual fonte Frederico prefere usar para fornecer e atualizar os dados da excursão. Aceitar o processo escolhido, como formulário, e-mail anterior, texto enviado no chat, arquivo ou armazenamento conectado. Não criar um cadastro permanente sem essa escolha.
+A preferência confirmada é manter arquivos TXT separados dentro da pasta da excursão:
+
+- `Preços.txt`
+- `Horários.txt`
+- `Locais de Embarque.txt`
+- `Endereços.txt`
+- `Tipo de Veículos.txt`
+- `Regras.txt`
+
+Consultar esses arquivos antes de responder ou divulgar dados variáveis. Criar ou atualizar somente os arquivos cujo conteúdo esteja confirmado. Não completar lacunas com dados históricos.
 
 ## Google Drive e financeiro opcional
 
@@ -56,12 +73,12 @@ Seguir `financeiro.md` para criação, estrutura, privacidade e gravações.
 
 Antes de agir, manter no contexto da execução:
 
-- evento e data;
+- artista, data e local;
+- pasta esperada da excursão;
 - conta de Gmail confirmada;
 - três etiquetas confirmadas;
-- TXT operacional vigente;
+- TXT gerais e lista operacional vigentes;
 - arquivos derivados existentes;
-- fonte das informações do evento;
 - veículos e capacidades conhecidos;
 - link do grupo, quando confirmado;
 - estado do financeiro: não oferecido, não habilitado ou habilitado;
