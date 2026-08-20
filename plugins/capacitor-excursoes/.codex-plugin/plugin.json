@@ -1,6 +1,6 @@
 {
   "name": "capacitor-excursoes",
-  "version": "0.4.0",
-  "description": "Adapta-se ao Gmail e à estrutura local confirmada de pastas e TXT para organizar eventos, reservas, pagamentos, passageiros e comunicações, com controle financeiro operacional opcional no Google Sheets.",
+  "version": "0.5.0",
+  "description": "Adapta-se ao Gmail e à estrutura confirmada de pastas e TXT, com armazenamento opcional no Google Drive, para organizar eventos, reservas, pagamentos, passageiros, comunicações e controle financeiro operacional.",
   "skills": "./skills/"
 }
