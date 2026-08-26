@@ -1,0 +1,7 @@
+interface:
+  display_name: "Gestão de gastos pessoais"
+  short_description: "Organiza despesas e parcelas no Google Drive"
+  default_prompt: "Use $gestao-gastos-pessoais para organizar minhas despesas, importar lançamentos ou analisar meus gastos."
+
+policy:
+  allow_implicit_invocation: true
