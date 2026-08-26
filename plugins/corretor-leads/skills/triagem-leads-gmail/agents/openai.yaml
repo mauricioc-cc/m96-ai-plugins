@@ -1,0 +1,7 @@
+interface:
+  display_name: "Triagem de leads imobiliários"
+  short_description: "Prioriza leads e prepara contatos pelo Gmail"
+  default_prompt: "Use $triagem-leads-gmail para priorizar meus leads imobiliários e preparar os próximos contatos."
+
+policy:
+  allow_implicit_invocation: true
