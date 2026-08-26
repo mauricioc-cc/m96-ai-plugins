@@ -1,6 +1,38 @@
 {
   "name": "corretor-leads",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "Prioriza leads imobiliários e prepara ou envia contatos contextuais conforme a autorização do corretor.",
-  "skills": "./skills/"
+  "skills": "./skills/",
+  "author": {
+    "name": "M96",
+    "url": "https://github.com/mauricioc-cc/m96-ai-plugins"
+  },
+  "homepage": "https://github.com/mauricioc-cc/m96-ai-plugins",
+  "repository": "https://github.com/mauricioc-cc/m96-ai-plugins",
+  "keywords": [
+    "leads-imobiliarios",
+    "corretor",
+    "gmail",
+    "whatsapp",
+    "priorizacao",
+    "atendimento"
+  ],
+  "interface": {
+    "displayName": "Corretor de Leads Imobiliários",
+    "shortDescription": "Prioriza leads e prepara contatos pelo Gmail",
+    "longDescription": "Use o plugin Corretor de Leads Imobiliários para localizar, deduplicar e priorizar contatos recebidos no Gmail, identificar os interessados mais promissores e preparar respostas contextuais por e-mail, WhatsApp ou telefone.",
+    "developerName": "M96",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/mauricioc-cc/m96-ai-plugins",
+    "defaultPrompt": [
+      "Priorize os leads imobiliários que chegaram esta semana.",
+      "Prepare respostas para os dez leads mais promissores.",
+      "Encontre contatos antigos com potencial de retomada."
+    ]
+  }
 }
