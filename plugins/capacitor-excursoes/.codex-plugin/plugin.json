@@ -1,6 +1,39 @@
 {
   "name": "capacitor-excursoes",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Adapta-se ao Gmail e à estrutura confirmada de pastas e TXT, com armazenamento opcional no Google Drive, para organizar eventos, reservas, pagamentos, passageiros, comunicações e controle financeiro operacional.",
-  "skills": "./skills/"
+  "skills": "./skills/",
+  "author": {
+    "name": "M96",
+    "url": "https://github.com/mauricioc-cc/m96-ai-plugins"
+  },
+  "homepage": "https://github.com/mauricioc-cc/m96-ai-plugins",
+  "repository": "https://github.com/mauricioc-cc/m96-ai-plugins",
+  "keywords": [
+    "excursoes",
+    "reservas",
+    "passageiros",
+    "pagamentos",
+    "gmail",
+    "google-drive",
+    "google-sheets"
+  ],
+  "interface": {
+    "displayName": "Operação Capacitor Excursões",
+    "shortDescription": "Organiza reservas, passageiros e pagamentos",
+    "longDescription": "Use o plugin Operação Capacitor Excursões para organizar eventos, reservas, pagamentos, passageiros e comunicações a partir do Gmail e da estrutura existente de pastas e arquivos TXT, com armazenamento opcional no Google Drive e controle financeiro operacional.",
+    "developerName": "M96",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/mauricioc-cc/m96-ai-plugins",
+    "defaultPrompt": [
+      "Organize as reservas da próxima excursão.",
+      "Confira comprovantes e atualize a lista de passageiros.",
+      "Prepare os arquivos da transportadora e da chamada."
+    ]
+  }
 }
