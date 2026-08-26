@@ -1,6 +1,39 @@
 {
   "name": "controle-gastos-pessoais",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Ajuda pessoas a organizar gastos pessoais usando uma planilha no Google Drive, importar faturas e comprovantes, categorizar despesas, acompanhar parcelamentos e gerar análises financeiras simples.",
-  "skills": "./skills/"
+  "author": {
+    "name": "M96",
+    "url": "https://github.com/mauricioc-cc/m96-ai-plugins"
+  },
+  "homepage": "https://github.com/mauricioc-cc/m96-ai-plugins",
+  "repository": "https://github.com/mauricioc-cc/m96-ai-plugins",
+  "keywords": [
+    "financas-pessoais",
+    "gastos",
+    "despesas",
+    "faturas",
+    "parcelamentos",
+    "google-drive",
+    "google-sheets"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Controle de Gastos Pessoais",
+    "shortDescription": "Organiza despesas pessoais no Google Drive",
+    "longDescription": "Use o plugin Controle de Gastos Pessoais para criar e manter uma planilha de despesas no Google Drive, importar faturas, extratos e comprovantes, categorizar lançamentos, acompanhar compras parceladas e analisar para onde o dinheiro está indo.",
+    "developerName": "M96",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/mauricioc-cc/m96-ai-plugins",
+    "defaultPrompt": [
+      "Crie uma planilha para organizar meus gastos pessoais.",
+      "Importe esta fatura e categorize os lançamentos.",
+      "Mostre meus gastos por categoria e as parcelas futuras."
+    ]
+  }
 }
