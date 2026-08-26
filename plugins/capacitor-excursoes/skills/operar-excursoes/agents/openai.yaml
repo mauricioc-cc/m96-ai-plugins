@@ -1,0 +1,7 @@
+interface:
+  display_name: "Operação da Capacitor Excursões"
+  short_description: "Organiza reservas, passageiros e pagamentos"
+  default_prompt: "Use $operar-excursoes para organizar uma excursão, atualizar reservas ou conferir pagamentos e passageiros."
+
+policy:
+  allow_implicit_invocation: true
