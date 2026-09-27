@@ -7,7 +7,7 @@ Criar preferencialmente as abas abaixo.
 Colunas mínimas:
 
 - `ID`
-- `Data`
+- `Data da compra/transação`
 - `Descrição original`
 - `Estabelecimento`
 - `Categoria`
@@ -19,7 +19,8 @@ Colunas mínimas:
 - `Total de parcelas`
 - `Valor total da compra`
 - `Parcelas restantes`
-- `Competência/Fatura`
+- `Mês de competência`
+- `Fatura de cobrança`
 - `Tipo`
 - `Arquivo fonte`
 - `Observações`
@@ -33,6 +34,8 @@ Valores sugeridos para `Tipo`:
 - `Ajuste`
 
 O `ID` deve ser estável e servir para evitar duplicidades. Pode ser derivado de uma combinação de data, descrição, valor, origem e dados de parcelamento, mas colisões devem ser verificadas antes da gravação.
+
+`Mês de competência` e `Fatura de cobrança` são campos distintos: para a parcela `n/N`, a competência é o mês da compra mais `n - 1` meses; a fatura identifica onde a parcela foi cobrada. Em planilhas existentes, derivar esses campos para a análise sem alterar silenciosamente a estrutura ou os valores históricos.
 
 ## Categorias
 
@@ -62,7 +65,7 @@ Pode ser uma visão derivada dos lançamentos, sem duplicar a fonte principal. E
 
 Pode conter fórmulas, tabelas dinâmicas ou gráficos para:
 
-- gasto do mês;
+- gasto do mês de competência, com cada parcela no seu mês;
 - gasto por categoria;
 - gasto por estabelecimento;
 - evolução mensal;
