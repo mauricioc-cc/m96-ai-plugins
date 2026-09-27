@@ -56,12 +56,23 @@ Para cada item:
 
 Para compras parceladas, registrar:
 
+- data original da compra, distinta da data da fatura e do pagamento;
 - valor da parcela atual;
 - número da parcela atual;
 - total de parcelas;
 - valor total da compra quando puder ser inferido com segurança;
 - quantidade de parcelas restantes;
 - meses/faturas futuras afetadas.
+
+Para consolidar **gastos por mês de competência** (cartão e conta juntos), salvo pedido explícito por outro critério:
+
+- usar a data do lançamento para débitos da conta e a data da compra para pagamentos à vista no cartão;
+- atribuir a parcela `n/N` ao mês da compra acrescido de `n - 1` meses, inclusive quando a compra ocorreu em ano anterior. Exemplo: compra em 03/07 em 6 parcelas de R$ 4.900: `1/6` entra em julho, `2/6` em agosto, mesmo que esta apareça na fatura de setembro;
+- somar apenas o valor de cada parcela efetivamente registrada no seu mês: não lançar o valor integral da compra no mês inicial, não reunir todas as parcelas na data original e não somar novamente o pagamento da fatura;
+- manter mês de competência, mês da fatura e data de pagamento como informações distintas. Fatura e pagamento servem à conciliação e ao fluxo de caixa, não determinam a competência do gasto;
+- abater estornos e reembolsos relacionados ao gasto. Cobranças recorrentes que exibem `n/N` sem representar uma compra parcelada, como uma tarifa mensal, exigem classificação própria, não o deslocamento automático pela fórmula acima.
+
+Se a fonte não permitir distinguir compra, parcela e cobrança com segurança, indicar a lacuna antes de apresentar um total mensal como fechado. Não incluir parcelas futuras apenas previstas nos gastos já realizados.
 
 Quando o usuário pedir projeções:
 
