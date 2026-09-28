@@ -1,6 +1,6 @@
 interface:
   display_name: "Gestão de gastos pessoais"
-  short_description: "Organiza despesas e parcelas no Google Drive"
+  short_description: "Organiza gastos no Drive ou em CSV local"
   default_prompt: "Use $gestao-gastos-pessoais para organizar minhas despesas, importar lançamentos ou analisar meus gastos."
 
 policy:
