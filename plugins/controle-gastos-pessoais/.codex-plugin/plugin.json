@@ -1,7 +1,7 @@
 {
   "name": "controle-gastos-pessoais",
-  "version": "0.3.0",
-  "description": "Mantém um registro validado de gastos pessoais em uma planilha no Google Drive ou em um CSV local, arquiva fontes, aprende categorias do usuário e concilia estornos.",
+  "version": "0.4.0",
+  "description": "Mantém um registro validado de gastos no Drive ou CSV, com Meu Pluggy como fonte prioritária, arquivos complementares, categorias próprias e conciliação.",
   "author": {
     "name": "M96",
     "url": "https://github.com/mauricioc-cc/m96-ai-plugins"
@@ -16,13 +16,16 @@
     "parcelamentos",
     "google-drive",
     "google-sheets",
-    "csv"
+    "csv",
+    "meu-pluggy",
+    "pluggy",
+    "open-finance"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Controle de Gastos Pessoais",
     "shortDescription": "Organiza gastos no Drive ou em CSV local",
-    "longDescription": "Use o plugin Controle de Gastos Pessoais para manter um registro validado de despesas no Google Drive ou em CSV local, guardar arquivos de origem, construir categorias próprias, evitar duplicatas, conciliar estornos e consultar gastos e parcelas.",
+    "longDescription": "Organiza gastos no Drive ou CSV com Meu Pluggy como fonte prioritária e arquivos complementares. Reutiliza configuração privada, evita duplicatas, concilia estornos e consulta gastos e parcelas.",
     "developerName": "M96",
     "category": "Productivity",
     "capabilities": [
@@ -34,7 +37,8 @@
     "defaultPrompt": [
       "Crie um controle para organizar meus gastos pessoais.",
       "Importe esta fatura e categorize os lançamentos.",
-      "Mostre meus gastos por categoria e as parcelas futuras."
+      "Mostre meus gastos por categoria e as parcelas futuras.",
+      "Atualize meu controle de gastos usando o Meu Pluggy."
     ]
   }
 }

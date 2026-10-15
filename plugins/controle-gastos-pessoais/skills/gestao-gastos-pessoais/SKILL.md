@@ -1,6 +1,6 @@
 ---
 name: gestao-gastos-pessoais
-description: Manter um registro validado de gastos pessoais em uma planilha no Google Drive ou em um CSV local, conforme a escolha do usuário. Guardar arquivos de origem, normalizar lançamentos, construir categorias próprias, conciliar estornos, evitar duplicatas e consultar gastos e parcelas.
+description: Manter um registro validado de gastos pessoais em uma planilha no Google Drive ou em um CSV local, conforme a escolha do usuário. Usar Meu Pluggy como fonte financeira prioritária, guardar fontes, normalizar lançamentos, construir categorias próprias, conciliar estornos, evitar duplicatas e consultar gastos e parcelas.
 ---
 
 # Gestão de gastos pessoais
@@ -8,6 +8,22 @@ description: Manter um registro validado de gastos pessoais em uma planilha no G
 Usar como base principal dos gastos **uma** das opções escolhidas pelo usuário ao iniciar o controle: uma planilha no Google Drive ou um arquivo CSV local. Reutilizar essa escolha nas operações seguintes; não perguntar a cada importação nem manter as duas bases sincronizadas. Se já houver um controle indicado pelo usuário, continuar nele sem criar outro.
 
 O objetivo é reduzir ao mínimo o trabalho manual: extrair dados dos insumos fornecidos, normalizar os lançamentos e manter a base escolhida atualizada, principalmente com data do gasto, valor e categoria.
+
+## Fonte financeira prioritária: Meu Pluggy
+
+Quando configurado, usar Meu Pluggy como fonte prioritária para os dados atuais de contas, cartões e transações, conforme `references/meu-pluggy.md`. Reutilizar as credenciais e os IDs de conexão na configuração privada fora do repositório, sem pedir novamente nem expor segredos. Consultar com `scripts/pluggy.py`, que autentica e percorre todas as páginas. Arquivos, extratos e conversa continuam como fontes complementares e históricas. A API é uma fonte; a planilha ou CSV escolhido continua sendo a base consolidada de gastos. Não criar outro controle ao conectar a API.
+
+Se não houver configuração privada do Meu Pluggy, oferecer a conexão como opção: perguntar se o usuário quer fornecer `clientId`, `clientSecret` e os `itemIds` das conexões ou continuar apenas com comprovantes, faturas e extratos. Não exigir API, conta Meu Pluggy ou credenciais para iniciar ou continuar o controle. Se o usuário optar pelas fontes manuais, reutilizar essa escolha e só voltar a oferecer a integração quando ele pedir ou surgir uma necessidade concreta. Solicitar e guardar credenciais somente se ele escolher conectar, conforme `references/meu-pluggy.md`.
+
+Antes de gravar a primeira importação, localizar o controle existente ou aplicar a escolha de armazenamento abaixo. Pode verificar o acesso à API sem criar a base nem escolher uma pasta pelo usuário.
+
+## Verificação diária obrigatória antes de responder
+
+Sempre que esta skill for acionada e Meu Pluggy estiver configurado, executar `python scripts/pluggy.py --ensure-daily` antes da resposta final, usando o fuso do usuário (`--timezone`, padrão `America/Sao_Paulo`). A primeira ativação de cada dia consulta a API e todas as páginas; ativações seguintes podem reutilizar apenas a captura completa do mesmo dia e das mesmas conexões. Se o usuário pedir atualização agora, usar também `--force`. Configuração nova, cache ausente ou inválido exigem nova consulta.
+
+Antes de responder consultas de gastos, reconciliar a captura com a base escolhida, arquivando a fonte e validando categorias, duplicatas, estornos e parcelas. A captura diária não é prova de que a base foi importada: conferir a última importação em `controle.json`, registrada apenas por referência à fonte, data da captura e pendências (sem valores). Repetir a conciliação se a captura ainda não tiver sido processada, mesmo que a consulta diária tenha sido reutilizada. Nunca declarar o controle atualizado enquanto houver importação não concluída, dados pendentes relevantes ou falhas.
+
+Em falha, não marcar a consulta diária como concluída; tentar novamente na próxima ativação. Pode responder com a última base conhecida, explicitando sua data e a limitação. Um status diferente de `UPDATED`, ausência de data de coleta ou dados bancários antigos exigem ressalva. A consulta não força sincronização bancária e não roda em segundo plano: a garantia é de verificação em cada dia em que o plugin for usado. Sem Meu Pluggy configurado, seguir normalmente com arquivos e conversa.
 
 ## Princípios
 
@@ -24,6 +40,8 @@ O objetivo é reduzir ao mínimo o trabalho manual: extrair dados dos insumos fo
 
 ## Inicialização e localização do controle
 
+Antes de procurar ou criar um controle, verificar se existe `~/.config/m96/controle-gastos-pessoais/controle-location.json`, contendo apenas o caminho ou identificador do `controle.json` já escolhido. Reutilizar essa localização quando acessível e pertencente ao usuário. Ao criar um controle com localização autorizada, registrar esse ponteiro privado para próximas ativações; ele não contém credenciais nem dados financeiros.
+
 Quando ainda não houver um controle escolhido, perguntar ao usuário se prefere planilha no Google Drive ou CSV local. Pedir a localização necessária uma vez na inicialização e reutilizá-la depois. Se houver mais de um controle candidato ou a localização anterior não estiver disponível, pedir que o usuário identifique o controle, sem refazer a escolha do formato nem criar outro por inferência. A troca de formato só ocorre quando o usuário a solicitar.
 
 - **Planilha no Drive:** criar, no Drive do próprio usuário, uma pasta `Controle de Gastos` e uma planilha com o mesmo nome, salvo se ele escolher outro nome ou local. A planilha tem somente as abas `Lançamentos` e `Categorias`, sem gráficos ou abas de resumo. Criar uma subpasta `Fontes` para os arquivos recebidos. Registrar a URL ou o identificador da planilha e da pasta de fontes para reutilização.
@@ -35,6 +53,8 @@ Usar o mesmo modelo de lançamentos nas duas opções, conforme `references/mode
 
 Aceitar como fonte, quando disponíveis:
 
+- Meu Pluggy via API, prioritário para transações atuais identificadas e conciliadas conforme `references/meu-pluggy.md`;
+
 - faturas de cartão;
 - extratos bancários;
 - comprovantes;
@@ -42,7 +62,7 @@ Aceitar como fonte, quando disponíveis:
 - listas ou tabelas enviadas pelo usuário;
 - lançamentos informados diretamente em conversa.
 
-Para cada item:
+Para cada item (em capturas de API, tratar o JSON arquivado como arquivo fonte e aplicar também as regras de IDs, paginação, estado e conciliação de `references/meu-pluggy.md`):
 
 1. Se o insumo for um arquivo recebido, guardar o original sem alterá-lo na pasta de fontes do controle escolhido e registrar sua localização. Reutilizar a cópia já arquivada quando o mesmo arquivo for enviado de novo. Se o insumo for apenas texto enviado na conversa, não exigir arquivo nem cópia textual.
 2. Extrair a data da compra ou transação, descrição original, valor, moeda e demais dados disponíveis. Para uma parcela, preservar também a `Data original da compra` quando conhecida e calcular a `Data do gasto` do seu mês conforme a regra de parcelamento abaixo.
@@ -129,6 +149,8 @@ Calcular totais, comparações e projeções a partir dos lançamentos quando o 
 - "Crie um controle dos meus gastos no Drive."
 - "Crie um controle dos meus gastos em um CSV local."
 - "Importe esta fatura para minha planilha."
+- "Atualize meus gastos usando o Meu Pluggy."
+- "Use esta conexão do Meu Pluggy sem duplicar meus extratos."
 - "Quanto gastei de Uber este mês?"
 - "Quanto gastei com iFood?"
 - "Mostre meus gastos por categoria."

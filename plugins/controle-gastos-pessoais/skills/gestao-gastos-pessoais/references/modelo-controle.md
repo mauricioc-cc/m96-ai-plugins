@@ -67,3 +67,9 @@ Na planilha, manter somente `Lançamentos` e `Categorias`. No modo local, manter
 ## Metadados do controle
 
 Manter `controle.json` na pasta escolhida, no Drive ou localmente, apenas para registrar o formato escolhido, as referências à base, às categorias e à pasta de fontes, e importações pendentes identificadas por arquivo e posição da linha ou item. Não copiar gastos, valores, descrições integrais nem resumos para esse arquivo. Resolver pendências reabrindo o original guardado; um gasto enviado só em conversa não exige arquivo ou registro permanente de pendência.
+
+## Fontes de API
+
+Para Meu Pluggy, usar `pluggy:<itemId>:<transactionId>` como ID estável de novos lançamentos e a localização do snapshot JSON arquivado em `Arquivo fonte`. Se um gasto já existente de outra fonte for conciliado sem ambiguidade, preservar seu ID e registrar o ID Pluggy em `Observações`. A captura contém a evidência original; contas, saldos e cadastro não entram como despesas. Nunca gravar credenciais na base, fontes ou metadados. Seguir `references/meu-pluggy.md` para prioridade, atualizações e reconciliação.
+
+Para Meu Pluggy, `controle.json` também pode registrar a última importação por localização do snapshot e data da captura, além dos IDs de pendências. Não guardar valores ou lançamentos nesse metadado; não marcar importações com pendências como concluídas.
