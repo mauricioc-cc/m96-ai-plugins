@@ -5,7 +5,7 @@ Status: conceito e paleta aprovados; demais elementos em exploração.
 
 ## Escopo
 
-Identidade pessoal para dar unidade aos sites, aplicativos, ferramentas e outros projetos de Mau. Independente da identidade do Estúdio Retrovisor. O nome m96 identifica o repositório; a assinatura visual definitiva ainda será definida.
+Identidade pessoal para dar unidade aos sites, aplicativos, ferramentas e outros projetos de Mau. Independente da identidade do Estúdio Retrovisor. A assinatura é opcional e depende da aplicação: “m96”, “mau.” ou nenhuma das duas. O sistema deve ser reconhecível sem uma marca obrigatória.
 
 ## Conceito aprovado
 
@@ -35,15 +35,37 @@ Os valores HEX foram aprovados na amostra “Luzes na madrugada”. Os papéis a
 - A direção aprovada escurece as cores mantendo sua presença.
 - O vermelho deve permanecer profundo e marcante.
 
+## Definições adicionais confirmadas
+
+- Predomina o aconchego de observar uma cidade relativamente vazia, quase liminar, de madrugada.
+- Referências concretas: cenas urbanas noturnas, rastros vermelhos de lanternas de carros, asfalto molhado e luzes azuis ou amarelas de postes.
+- Imperfeição é bem-vinda. Preferir texturas neutras; evitar uso abundante de gradientes.
+- Abrangência: sites, ferramentas, apresentações e documentos, além de usos pessoais como papéis de parede e cores de mostradores do Apple Watch.
+- Incluir a materialidade da tecnologia real dos anos 80: CRT, VHS, equipamentos e interfaces físicas. A referência é histórica e analógica, sem assumir retrofuturismo.
+- Buscar a maior originalidade possível e evitar soluções visuais genéricas recorrentes em criações de LLMs.
+
+## Direção de exploração derivada do briefing
+
+Propostas a validar nas aplicações, sem tratá-las como decisões finais:
+
+- Usar vazio e enquadramentos deslocados para transmitir observação e quietude.
+- Manter vermelho concentrado e marcante; azul e âmbar evocam luz distante.
+- Explorar grão fino neutro, pequenas perdas de definição nas imagens e reflexos localizados. Preservar nitidez de texto e controles.
+- Usar referências de CRT e VHS com parcimônia. Não tornar scanlines, glitch, neon ou distorção efeitos obrigatórios.
+- Estudar divisões funcionais e legendas de equipamentos reais, evitando painéis decorativos sem função.
+- Fazer a identidade funcionar sem fotografia, logotipo, monoespaçada ou cartões arredondados como atalhos.
+- Avaliar aplicações em wallpaper, interface pequena e capa de documento antes de fechar regras.
+- “Refúgio urbano” e quaisquer frases nos estudos são rótulos de exploração, não slogans aprovados.
+
 ## Propostas para desenvolver — ainda não aprovadas
 
 ### Tipografia
 
-Uma família sem serifa com personalidade discreta e boa leitura, com hierarquia clara e pesos contidos. Explorar uma monoespaçada apenas em detalhes como horários, metadados e pequenos rótulos. Escolher famílias, pesos, escala, espaçamento e alternativas de sistema.
+Uma família com personalidade própria e boa leitura, com hierarquia clara e pesos contidos. Testar tipografia a partir de referências de equipamentos e sinalização; monoespaçada não é uma escolha automática. Escolher famílias, pesos, escala, espaçamento e alternativas de sistema.
 
 ### Assinatura e símbolo
 
-Explorar a escrita “mau.” e o ponto como pequeno sinal luminoso. Definir a relação entre Mau, m96 e os nomes de cada projeto antes de fechar um logotipo. Criar versões reduzida, monocromática e favicon, com regras de tamanho e área de proteção.
+A assinatura pode ser “mau.”, “m96” ou estar ausente conforme o projeto. Testar tratamentos tipográficos sem presumir um ponto luminoso como solução. Caso sejam desenvolvidos símbolos ou logotipos, definir versões reduzida e monocromática, favicon, tamanho mínimo e área de proteção.
 
 ### Composição
 
