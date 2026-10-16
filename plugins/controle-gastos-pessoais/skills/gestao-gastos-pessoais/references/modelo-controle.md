@@ -73,3 +73,10 @@ Manter `controle.json` na pasta escolhida, no Drive ou localmente, apenas para r
 Para Meu Pluggy, usar `pluggy:<itemId>:<transactionId>` como ID estável de novos lançamentos e a localização do snapshot JSON arquivado em `Arquivo fonte`. Se um gasto já existente de outra fonte for conciliado sem ambiguidade, preservar seu ID e registrar o ID Pluggy em `Observações`. A captura contém a evidência original; contas, saldos e cadastro não entram como despesas. Nunca gravar credenciais na base, fontes ou metadados. Seguir `references/meu-pluggy.md` para prioridade, atualizações e reconciliação.
 
 Para Meu Pluggy, `controle.json` também pode registrar a última importação por localização do snapshot e data da captura, além dos IDs de pendências. Não guardar valores ou lançamentos nesse metadado; não marcar importações com pendências como concluídas.
+
+## Status e parcelas informadas pelo Meu Pluggy
+
+Compras e parcelas são gastos independentemente de `PENDING` ou `POSTED`.
+Preservar o ID na mudança de status. Parcelas futuras retornadas pela API ficam
+na Data do gasto do próprio mês, segundo a regra da skill; não são projeções
+sintetizadas. Não criar colunas novas nem somá-las antecipadamente ao mês atual.

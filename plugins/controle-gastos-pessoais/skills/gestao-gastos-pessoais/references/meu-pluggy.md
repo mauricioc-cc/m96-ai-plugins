@@ -85,8 +85,16 @@ porque deixaram de aparecer: janelas de histórico e consentimentos variam.
   semelhança de data e valor não prova duplicidade. Se houver conflito ambíguo,
   perguntar antes de alterar; preservar o ID já adotado e registrar o ID da API
   em `Observações` para reconhecer consultas seguintes.
-- Consolidar somente gastos efetivados (`POSTED`); pendentes continuam na fonte
-  e não compõem totais fechados. Revisar quando se tornarem efetivados.
+- Incluir compras e parcelas como gastos independentemente do status `PENDING`
+  ou `POSTED`. Fatura aberta não impede contabilizar uma compra informada pela
+  API. O status pode constar em Observações, mas não bloqueia a importação,
+  não exclui valores dos totais nem cria, sozinho, pendência de conciliação.
+- Registrar parcelas futuras explicitamente retornadas pela API na própria
+  Data do gasto, conforme a regra de parcelamento da skill. Não somá-las ao
+  mês atual nem fabricar parcelas ausentes: parcelas contratadas informadas
+  pela fonte são distintas de projeções calculadas sem lançamento na fonte.
+- A mudança de `PENDING` para `POSTED` atualiza o mesmo lançamento; nunca
+  incluir status, data da consulta ou fatura na chave de deduplicação.
 - A categoria da API é sugestão; validar pelas categorias próprias do usuário.
 - Em conta corrente, confirmar o sentido débito/crédito pelos campos da API.
   Em cartão, valores positivos aumentam a dívida; negativos reduzem a dívida.
@@ -118,3 +126,8 @@ imediata. Falhas não substituem o cache anterior nem passam a valer como sucess
 Ter captura recente não garante banco recente nem base conciliada: validar o
 status e a coleta bancária e processar importações pendentes antes de responder.
 Não forçar sincronização ou criar agendamento em segundo plano.
+
+Em comparações, usar o mesmo intervalo de Data do gasto nos dois meses. O dia
+derivado de uma parcela é referência de alocação, não prova de liquidação.
+Pendências reais são dados ausentes, categorias incertas, conflitos ou estornos
+sem vínculo seguro; o status `PENDING` por si só não é uma pendência.

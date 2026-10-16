@@ -36,6 +36,7 @@ Em falha, não marcar a consulta diária como concluída; tentar novamente na pr
 - Manter na base principal somente os lançamentos de gastos resultantes da normalização: sem linhas originais duplicadas, totais, resumos, gráficos ou projeções. Guardar a lista de categorias separada dos lançamentos.
 - Diferenciar claramente gasto efetivamente lançado, compra parcelada e projeção futura.
 - Não apresentar projeções como se fossem cobranças já realizadas.
+- Incluir compras e parcelas retornadas pelo Meu Pluggy como gastos independentemente de `PENDING` ou `POSTED`. Mudança de status não gera outro lançamento. Registrar parcelas futuras informadas pela API no próprio mês, sem fabricar parcelas ausentes nem somá-las ao mês atual.
 - Não transformar o controle de gastos em aconselhamento de investimento, crédito ou endividamento sem pedido explícito.
 
 ## Inicialização e localização do controle
@@ -106,7 +107,7 @@ Para consolidar **gastos por mês** (cartão e conta juntos), salvo pedido expl�
 - não armazenar mês de competência, fatura de cobrança ou data de pagamento no registro de gastos. O arquivo de origem permanece disponível para conferência;
 - excluir do total os gastos anulados por estorno ou reembolso conforme a regra acima. Cobranças recorrentes que exibem `n/N` sem representar uma compra parcelada, como uma tarifa mensal, exigem classificação própria, não o deslocamento automático pela fórmula acima.
 
-Se a fonte não permitir distinguir compra, parcela e cobrança com segurança, indicar a lacuna antes de apresentar um total mensal como fechado. Não incluir parcelas futuras apenas previstas nos gastos já realizados.
+Se a fonte não permitir distinguir compra, parcela e cobrança com segurança, indicar a lacuna antes de apresentar um total mensal como fechado. Não incluir projeções hipotéticas sem lançamento na fonte nos gastos registrados. Parcelas futuras explicitamente retornadas pela API entram na base com a Data do gasto do próprio mês; consultas até hoje ou do mês atual respeitam esse recorte.
 
 Quando o usuário pedir projeções:
 

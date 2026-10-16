@@ -34,3 +34,7 @@ python -m unittest discover -s plugins/controle-gastos-pessoais/tests
 ```
 
 Em cada ativação com Meu Pluggy configurado, o plugin verifica uma captura completa ao menos uma vez no dia (fuso do usuário) antes de responder e concilia os dados antes das respostas sobre gastos. Cache diário não equivale a importação concluída nem a nova sincronização bancária. Use `--ensure-daily --force` para consultar novamente no mesmo dia.
+
+Compras e parcelas do Meu Pluggy entram no controle mesmo com status `PENDING`.
+Parcelas futuras informadas pela API ficam no próprio mês, sem duplicação quando
+o status mudar. A verificação diária e as demais regras de conciliação continuam.

@@ -1,6 +1,6 @@
 {
   "name": "controle-gastos-pessoais",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Mantém um registro validado de gastos no Drive ou CSV, com Meu Pluggy como fonte prioritária, arquivos complementares, categorias próprias e conciliação.",
   "author": {
     "name": "M96",
