@@ -1,7 +1,7 @@
 # Identidade visual pessoal — Mau / m96
 
 Registro inicial: 16 de outubro de 2026.
-Status: conceito e paleta aprovados; demais elementos em exploração.
+Status: conceito, paleta e direção visual do estudo ajustado aprovados; especificações de produção em desenvolvimento.
 
 ## Escopo
 
@@ -44,6 +44,26 @@ Os valores HEX foram aprovados na amostra “Luzes na madrugada”. Os papéis a
 - Incluir a materialidade da tecnologia real dos anos 80: CRT, VHS, equipamentos e interfaces físicas. A referência é histórica e analógica, sem assumir retrofuturismo.
 - Buscar a maior originalidade possível e evitar soluções visuais genéricas recorrentes em criações de LLMs.
 
+## Referência visual aprovada
+
+Em 16 de outubro de 2026, Mau aprovou o estudo em três formatos e sua versão ajustada como referência principal da identidade.
+
+![Estudo aprovado: papel de parede, interface e capa de documento](assets/identidade-visual/estudo-aprovado-v1.jpg)
+
+A imagem é um estudo visual gerado, preservado aqui em JPEG para consulta. Não identifica uma fonte comercial específica, não é uma interface implementada e não substitui os valores HEX da paleta.
+
+### O que a aprovação consolida
+
+- Papel de parede: cidade quase vazia, observada de um lugar protegido, vidro com chuva, asfalto molhado, luzes azuis e âmbar e lanternas vermelhas.
+- Composição: amplo vazio escuro, enquadramento assimétrico e áreas de conteúdo concentradas.
+- Materialidade: superfícies foscas com textura analógica discreta.
+- Interface: divisões funcionais, hierarquia legível, vermelho profundo em ações e seleção; âmbar como pequeno indicador.
+- Documento: título com presença, fotografia em faixa recortada, linhas finas e rastros vermelhos interrompidos.
+- Refinamento aprovado: menos textura nas áreas de leitura e no botão e leve alívio de peso nos títulos, preservando personalidade e atmosfera.
+- Assinatura permanece opcional: “m96”, “mau.” ou nenhuma.
+
+A aprovação é da direção visual. Família tipográfica, pesos numéricos, tamanhos, espaçamentos, intensidade técnica da textura, componentes e movimento ainda não foram especificados. Os textos “Caderno” e “Observações” são exemplos de aplicação, não nomes obrigatórios ou slogans.
+
 ## Direção de exploração derivada do briefing
 
 Propostas a validar nas aplicações, sem tratá-las como decisões finais:
@@ -54,7 +74,7 @@ Propostas a validar nas aplicações, sem tratá-las como decisões finais:
 - Usar referências de CRT e VHS com parcimônia. Não tornar scanlines, glitch, neon ou distorção efeitos obrigatórios.
 - Estudar divisões funcionais e legendas de equipamentos reais, evitando painéis decorativos sem função.
 - Fazer a identidade funcionar sem fotografia, logotipo, monoespaçada ou cartões arredondados como atalhos.
-- Avaliar aplicações em wallpaper, interface pequena e capa de documento antes de fechar regras.
+- Usar o estudo aprovado de wallpaper, interface e capa como referência para especificar regras e testar novas aplicações.
 - “Refúgio urbano” e quaisquer frases nos estudos são rótulos de exploração, não slogans aprovados.
 
 ## Propostas para desenvolver — ainda não aprovadas
@@ -103,11 +123,11 @@ Criar exemplos de capa, apresentação, documento e imagem de compartilhamento, 
 - [ ] Tipografia escolhida e hierarquia definida.
 - [ ] Assinatura, símbolo e versões definidos.
 - [ ] Grid, espaçamentos e formas definidos.
-- [ ] Direção de imagem e efeitos definida.
+- [x] Direção de imagem e materialidade aprovada no estudo; parâmetros técnicos pendentes.
 - [ ] Ícones e elementos gráficos definidos.
 - [ ] Movimento e estados de interface definidos.
 - [ ] Contraste, legibilidade e acessibilidade verificados.
-- [ ] Exemplos em diferentes formatos revisados.
+- [x] Exemplos de wallpaper, interface e documento revisados e aprovados como direção.
 - [ ] Tokens reutilizáveis e guia de aplicação publicados.
 
 ## Regra de evolução
