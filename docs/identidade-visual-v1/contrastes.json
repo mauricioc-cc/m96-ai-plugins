@@ -1,0 +1,146 @@
+[
+  {
+    "theme": "dark",
+    "foreground": "text",
+    "background": "background",
+    "ratio": 15.21
+  },
+  {
+    "theme": "dark",
+    "foreground": "text",
+    "background": "surface",
+    "ratio": 11.6
+  },
+  {
+    "theme": "dark",
+    "foreground": "secondary",
+    "background": "background",
+    "ratio": 9.49
+  },
+  {
+    "theme": "dark",
+    "foreground": "secondary",
+    "background": "surface",
+    "ratio": 7.24
+  },
+  {
+    "theme": "dark",
+    "foreground": "link",
+    "background": "background",
+    "ratio": 9.3
+  },
+  {
+    "theme": "dark",
+    "foreground": "link",
+    "background": "surface",
+    "ratio": 7.09
+  },
+  {
+    "theme": "dark",
+    "foreground": "success",
+    "background": "background",
+    "ratio": 9.79
+  },
+  {
+    "theme": "dark",
+    "foreground": "success",
+    "background": "surface",
+    "ratio": 7.47
+  },
+  {
+    "theme": "dark",
+    "foreground": "warning",
+    "background": "background",
+    "ratio": 6.95
+  },
+  {
+    "theme": "dark",
+    "foreground": "warning",
+    "background": "surface",
+    "ratio": 5.3
+  },
+  {
+    "theme": "dark",
+    "foreground": "error",
+    "background": "background",
+    "ratio": 9.45
+  },
+  {
+    "theme": "dark",
+    "foreground": "error",
+    "background": "surface",
+    "ratio": 7.21
+  },
+  {
+    "theme": "light",
+    "foreground": "text",
+    "background": "background",
+    "ratio": 15.21
+  },
+  {
+    "theme": "light",
+    "foreground": "text",
+    "background": "surface",
+    "ratio": 17.19
+  },
+  {
+    "theme": "light",
+    "foreground": "secondary",
+    "background": "background",
+    "ratio": 6.18
+  },
+  {
+    "theme": "light",
+    "foreground": "secondary",
+    "background": "surface",
+    "ratio": 6.99
+  },
+  {
+    "theme": "light",
+    "foreground": "link",
+    "background": "background",
+    "ratio": 5.64
+  },
+  {
+    "theme": "light",
+    "foreground": "link",
+    "background": "surface",
+    "ratio": 6.37
+  },
+  {
+    "theme": "light",
+    "foreground": "success",
+    "background": "background",
+    "ratio": 5.97
+  },
+  {
+    "theme": "light",
+    "foreground": "success",
+    "background": "surface",
+    "ratio": 6.74
+  },
+  {
+    "theme": "light",
+    "foreground": "warning",
+    "background": "background",
+    "ratio": 6.36
+  },
+  {
+    "theme": "light",
+    "foreground": "warning",
+    "background": "surface",
+    "ratio": 7.19
+  },
+  {
+    "theme": "light",
+    "foreground": "error",
+    "background": "background",
+    "ratio": 5.22
+  },
+  {
+    "theme": "light",
+    "foreground": "error",
+    "background": "surface",
+    "ratio": 5.9
+  }
+]

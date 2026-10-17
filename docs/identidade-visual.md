@@ -1,7 +1,7 @@
 # Identidade visual pessoal — Mau / m96
 
 Registro inicial: 16 de outubro de 2026.
-Status: conceito, paleta e direção visual do estudo ajustado aprovados; especificações de produção em desenvolvimento.
+Status: conceito, paleta, direção visual e Barlow Condensed aprovados. Sistema operacional v1.0 concluído sob autorização de Mau; detalhes de produção documentados no guia.
 
 ## Escopo
 
@@ -62,7 +62,7 @@ A imagem é um estudo visual gerado, preservado aqui em JPEG para consulta. Não
 - Refinamento aprovado: menos textura nas áreas de leitura e no botão e leve alívio de peso nos títulos, preservando personalidade e atmosfera.
 - Assinatura permanece opcional: “m96”, “mau.” ou nenhuma.
 
-A aprovação é da direção visual. A família Barlow Condensed foi escolhida após este estudo; pesos numéricos, tamanhos, espaçamentos, intensidade técnica da textura, componentes e movimento ainda precisam ser especificados. Os textos “Caderno” e “Observações” são exemplos de aplicação, não nomes obrigatórios ou slogans.
+A aprovação é da direção visual. A família Barlow Condensed foi escolhida após este estudo; as especificações de produção foram consolidadas no sistema v1.0. Os textos “Caderno” e “Observações” são exemplos de aplicação, não nomes obrigatórios ou slogans.
 
 ## Direção de exploração derivada do briefing
 
@@ -81,65 +81,43 @@ Propostas a validar nas aplicações, sem tratá-las como decisões finais:
 
 **Barlow Condensed**, escolhida por Mau em 16 de outubro de 2026 após comparação com Archivo Narrow e IBM Plex Sans Condensed.
 
-A escolha foi feita em uma amostra renderizada diretamente dos arquivos reais das fontes, após dúvida sobre o carregamento da primeira comparação. O espécime usou Semibold (600) nos títulos e Regular (400) no texto; esses pesos são referência do teste, ainda não regras finais.
+A escolha foi feita em uma amostra renderizada diretamente dos arquivos reais das fontes, após dúvida sobre o carregamento da primeira comparação. O espécime usou Semibold (600) nos títulos e Regular (400) no texto. O sistema v1.0 mantém títulos em 600 e adota Barlow em largura normal para leitura.
 
 - Fonte oficial: https://github.com/jpt/barlow
 - Catálogo: https://fonts.google.com/specimen/Barlow+Condensed
 - Licença: SIL Open Font License 1.1, disponível no repositório da fonte.
 - Uso independente de assinatura Adobe.
-- Aplicação principal proposta: títulos e textos curtos da identidade.
-- Ainda definir: pesos, escala, entrelinha, espaçamento, alternativas de sistema e fonte adequada para textos longos.
+- Aplicação definida na v1.0: Barlow Condensed 600 nos títulos; Barlow em largura normal 400/500/600 no corpo e nos controles.
+- Pesos, escala, entrelinha, espaçamento, alternativas de sistema e fonte para textos longos: consultar o sistema v1.0.
 - Não presumir que a tipografia da imagem gerada original seja exatamente esta fonte.
 
-## Propostas para desenvolver — ainda não aprovadas
+## Sistema v1.0
 
-### Assinatura e símbolo
+[Especificação completa e arquivos reutilizáveis](identidade-visual-v1/README.md).
 
-A assinatura pode ser “mau.”, “m96” ou estar ausente conforme o projeto. Testar tratamentos tipográficos sem presumir um ponto luminoso como solução. Caso sejam desenvolvidos símbolos ou logotipos, definir versões reduzida e monocromática, favicon, tamanho mínimo e área de proteção.
+Inclui guia visual offline com fontes incorporadas, CSS, tokens JSON, textura neutra, arquivos de fonte com licença e resultados dos cálculos de contraste.
 
-### Composição
+A versão 1.0 especifica tipografia, cores funcionais, composição, superfícies, gesto gráfico, estados fundamentais, movimento e aplicação em formatos diferentes. A assinatura continua opcional por decisão do usuário. As medidas foram definidas durante a conclusão autorizada do sistema, sem presumir aprovação individual de cada parâmetro.
 
-Respiro, alinhamentos claros e assimetria moderada, inspirados em enquadramentos de cidade. Definir grid, margens, espaçamentos, densidade e comportamento em telas pequenas e documentos.
+### Estado dos fundamentos
 
-### Superfícies e efeitos
-
-Fundos escuros com camadas distinguíveis. Explorar reflexos difusos, brilho localizado e granulação muito discreta em áreas de atmosfera. Definir limites de transparência, sombras, bordas e raios; manter texto e controles nítidos.
-
-### Fotografia e ilustração
-
-Fotografia urbana noturna com chuva, vidros, ruas, interiores acolhedores e luzes distantes. Definir enquadramento, exposição, tratamento de cor e uso de textura. A identidade também deve funcionar sem fotografias.
-
-### Iconografia e elementos gráficos
-
-Ícones simples e consistentes. Explorar pontos de luz, linhas de reflexo e recortes de janela como vocabulário gráfico. Definir espessura, tamanhos e regras de repetição.
-
-### Movimento
-
-Transições suaves e discretas, com respostas claras à interação. Definir duração, curvas e alternativa com movimento reduzido. Explorar luz e profundidade sem animação decorativa contínua.
-
-### Aplicação em interfaces
-
-Definir botões, links, campos, cartões, navegação, foco, seleção, carregamento e mensagens. Diferenciar a cor de assinatura das cores de erro, aviso e sucesso. Validar contraste por combinação e tamanho de texto; não depender só de cor para comunicar estado. Uma eventual versão clara precisa preservar a mesma assinatura.
-
-### Aplicação em outros formatos
-
-Criar exemplos de capa, apresentação, documento e imagem de compartilhamento, além de uma interface. Definir como a identidade se mantém reconhecível em formatos diferentes.
-
-## Critérios para considerar o sistema completo
-
-- [x] Conceito e atmosfera definidos.
-- [x] Paleta base aprovada.
-- [ ] Regras de uso e combinações de cores.
+- [x] Conceito e atmosfera.
+- [x] Paleta e direção visual aprovadas.
 - [x] Barlow Condensed escolhida.
-- [ ] Hierarquia tipográfica e fonte para textos longos definidas.
-- [ ] Assinatura, símbolo e versões definidos.
-- [ ] Grid, espaçamentos e formas definidos.
-- [x] Direção de imagem e materialidade aprovada no estudo; parâmetros técnicos pendentes.
-- [ ] Ícones e elementos gráficos definidos.
-- [ ] Movimento e estados de interface definidos.
-- [ ] Contraste, legibilidade e acessibilidade verificados.
-- [x] Exemplos de wallpaper, interface e documento revisados e aprovados como direção.
-- [ ] Tokens reutilizáveis e guia de aplicação publicados.
+- [x] Hierarquia tipográfica e Barlow normal para leitura.
+- [x] Regras de cor, variações funcionais e contrastes calculados.
+- [x] Grid, espaçamentos e formas.
+- [x] Textura neutra e gesto gráfico reutilizáveis.
+- [x] Regras de iconografia, movimento e componentes básicos.
+- [x] Assinatura opcional, com orientação de aplicação.
+- [x] Modelos de composição para interfaces, documentos e fundos.
+- [x] CSS, JSON, fontes locais e guia visual offline.
+
+### Limites de validação
+
+Contrastes, integridade das fontes e sintaxe do exemplo foram verificados. A instalação do navegador de teste falhou neste ambiente; revisão visual e interação em navegador ainda precisam ser verificadas no uso real. Não declarar a base como auditada integralmente para acessibilidade.
+
+Wallpapers independentes em resoluções de dispositivos, templates nativos de apresentações/documentos, um eventual logotipo e componentes particulares de produtos são extensões; o sistema v1.0 não afirma que esses arquivos finais já existam.
 
 ## Regra de evolução
 

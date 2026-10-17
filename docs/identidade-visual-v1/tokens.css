@@ -1,0 +1,45 @@
+@font-face{font-family:Barlow;src:url('fonts/Barlow-400.ttf') format('truetype');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:Barlow;src:url('fonts/Barlow-500.ttf') format('truetype');font-style:normal;font-weight:500;font-display:swap}
+@font-face{font-family:Barlow;src:url('fonts/Barlow-600.ttf') format('truetype');font-style:normal;font-weight:600;font-display:swap}
+@font-face{font-family:'Barlow Condensed';src:url('fonts/BarlowCondensed-600.ttf') format('truetype');font-style:normal;font-weight:600;font-display:swap}
+.m96{
+ --m96-night:#0B1018;--m96-asphalt:#202A35;--m96-headlight:#E2E6EB;--m96-red:#C92C38;--m96-petrol:#258D9E;--m96-amber:#CE902F;
+ --m96-bg:var(--m96-night);--m96-surface:var(--m96-asphalt);--m96-text:var(--m96-headlight);--m96-secondary:#AEB8C4;--m96-line:#718090;
+ --m96-action:var(--m96-red);--m96-action-text:#FFFFFF;--m96-hover:#B32430;--m96-link:#7AC0CC;--m96-focus:var(--m96-headlight);
+ --m96-success:#8FC5B0;--m96-warning:var(--m96-amber);--m96-error:#FF9AA4;
+ --m96-font-body:Barlow,'Arial',sans-serif;--m96-font-title:'Barlow Condensed','Arial Narrow',sans-serif;
+ --m96-space-1:4px;--m96-space-2:8px;--m96-space-3:12px;--m96-space-4:16px;--m96-space-6:24px;--m96-space-8:32px;--m96-space-12:48px;--m96-space-16:64px;
+ --m96-radius:2px;--m96-duration:140ms;--m96-ease:cubic-bezier(.2,0,0,1);
+ background:var(--m96-bg);color:var(--m96-text);font:400 16px/1.55 var(--m96-font-body);color-scheme:dark;
+}
+.m96[data-theme=light]{--m96-bg:#E2E6EB;--m96-surface:#F5F3EE;--m96-text:#0B1018;--m96-secondary:#465463;--m96-line:#697887;--m96-action:#B32430;--m96-hover:#9B1D29;--m96-link:#17616E;--m96-focus:#0B1018;--m96-success:#245F49;--m96-warning:#6D4A0A;--m96-error:#B32430;color-scheme:light}
+.m96 *{box-sizing:border-box}
+.m96 h1,.m96 h2,.m96 h3{font-family:var(--m96-font-title);font-weight:600;letter-spacing:-.01em;line-height:1.08;margin:0 0 24px}
+.m96 h1{font-size:clamp(40px,7vw,64px)}
+.m96 h2{font-size:clamp(32px,5vw,40px)}
+.m96 h3{font-size:24px;line-height:1.15}
+.m96 p{max-width:65ch;margin:0 0 16px}
+.m96 a{color:var(--m96-link);text-decoration:underline;text-underline-offset:4px}
+.m96 .m96-label{font:500 12px/1.4 var(--m96-font-body);letter-spacing:.08em;text-transform:uppercase}
+.m96 .m96-muted{color:var(--m96-secondary)}
+.m96 .m96-rule{border:0;border-top:1px solid var(--m96-line);margin:24px 0}
+.m96 button,.m96 input,.m96 textarea,.m96 select{font:inherit}
+.m96 button{min-height:44px;padding:10px 18px;border:1px solid var(--m96-line);border-radius:var(--m96-radius);background:transparent;color:var(--m96-text);font-weight:500;transition:background-color var(--m96-duration) var(--m96-ease)}
+.m96 button.m96-primary{background:var(--m96-action);border-color:var(--m96-action);color:var(--m96-action-text)}
+.m96 button.m96-primary:hover{background:var(--m96-hover);border-color:var(--m96-hover)}
+.m96 button:disabled{opacity:.45;cursor:not-allowed}
+.m96 :is(button,a,input,textarea,select):focus-visible{outline:2px solid var(--m96-focus);outline-offset:4px}
+.m96 input,.m96 textarea,.m96 select{max-width:100%;width:100%;min-height:44px;border:1px solid var(--m96-line);border-radius:var(--m96-radius);background:var(--m96-bg);color:var(--m96-text);padding:10px 12px}
+.m96 input::placeholder,.m96 textarea::placeholder{color:var(--m96-secondary);opacity:1}
+.m96 label{display:block;margin:0 0 8px;font-weight:500}
+.m96 .m96-surface{background:var(--m96-surface);padding:24px}
+.m96 .m96-status{display:flex;gap:8px;align-items:baseline;font-size:14px}
+.m96 .m96-status[data-state=success]{color:var(--m96-success)}
+.m96 .m96-status[data-state=warning]{color:var(--m96-warning)}
+.m96 .m96-status[data-state=error]{color:var(--m96-error)}
+.m96 .m96-trail{display:flex;justify-content:flex-end;gap:8px;max-width:160px;margin-left:auto;height:4px;color:var(--m96-red)}
+.m96 .m96-trail:before,.m96 .m96-trail:after{content:'';display:block;background:currentColor;height:4px}
+.m96 .m96-trail:before{width:40px;margin-top:5px}.m96 .m96-trail:after{width:96px}
+.m96 .m96-grain{position:relative;isolation:isolate}
+.m96 .m96-grain:before{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;background-image:url('grain.svg');opacity:.04}
+@media(prefers-reduced-motion:reduce){.m96{--m96-duration:0ms}}
