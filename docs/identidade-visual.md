@@ -62,7 +62,7 @@ A imagem é um estudo visual gerado, preservado aqui em JPEG para consulta. Não
 - Refinamento aprovado: menos textura nas áreas de leitura e no botão e leve alívio de peso nos títulos, preservando personalidade e atmosfera.
 - Assinatura permanece opcional: “m96”, “mau.” ou nenhuma.
 
-A aprovação é da direção visual. Família tipográfica, pesos numéricos, tamanhos, espaçamentos, intensidade técnica da textura, componentes e movimento ainda não foram especificados. Os textos “Caderno” e “Observações” são exemplos de aplicação, não nomes obrigatórios ou slogans.
+A aprovação é da direção visual. A família Barlow Condensed foi escolhida após este estudo; pesos numéricos, tamanhos, espaçamentos, intensidade técnica da textura, componentes e movimento ainda precisam ser especificados. Os textos “Caderno” e “Observações” são exemplos de aplicação, não nomes obrigatórios ou slogans.
 
 ## Direção de exploração derivada do briefing
 
@@ -77,11 +77,21 @@ Propostas a validar nas aplicações, sem tratá-las como decisões finais:
 - Usar o estudo aprovado de wallpaper, interface e capa como referência para especificar regras e testar novas aplicações.
 - “Refúgio urbano” e quaisquer frases nos estudos são rótulos de exploração, não slogans aprovados.
 
+## Tipografia escolhida
+
+**Barlow Condensed**, escolhida por Mau em 16 de outubro de 2026 após comparação com Archivo Narrow e IBM Plex Sans Condensed.
+
+A escolha foi feita em uma amostra renderizada diretamente dos arquivos reais das fontes, após dúvida sobre o carregamento da primeira comparação. O espécime usou Semibold (600) nos títulos e Regular (400) no texto; esses pesos são referência do teste, ainda não regras finais.
+
+- Fonte oficial: https://github.com/jpt/barlow
+- Catálogo: https://fonts.google.com/specimen/Barlow+Condensed
+- Licença: SIL Open Font License 1.1, disponível no repositório da fonte.
+- Uso independente de assinatura Adobe.
+- Aplicação principal proposta: títulos e textos curtos da identidade.
+- Ainda definir: pesos, escala, entrelinha, espaçamento, alternativas de sistema e fonte adequada para textos longos.
+- Não presumir que a tipografia da imagem gerada original seja exatamente esta fonte.
+
 ## Propostas para desenvolver — ainda não aprovadas
-
-### Tipografia
-
-Uma família com personalidade própria e boa leitura, com hierarquia clara e pesos contidos. Testar tipografia a partir de referências de equipamentos e sinalização; monoespaçada não é uma escolha automática. Escolher famílias, pesos, escala, espaçamento e alternativas de sistema.
 
 ### Assinatura e símbolo
 
@@ -120,7 +130,8 @@ Criar exemplos de capa, apresentação, documento e imagem de compartilhamento, 
 - [x] Conceito e atmosfera definidos.
 - [x] Paleta base aprovada.
 - [ ] Regras de uso e combinações de cores.
-- [ ] Tipografia escolhida e hierarquia definida.
+- [x] Barlow Condensed escolhida.
+- [ ] Hierarquia tipográfica e fonte para textos longos definidas.
 - [ ] Assinatura, símbolo e versões definidos.
 - [ ] Grid, espaçamentos e formas definidos.
 - [x] Direção de imagem e materialidade aprovada no estudo; parâmetros técnicos pendentes.
