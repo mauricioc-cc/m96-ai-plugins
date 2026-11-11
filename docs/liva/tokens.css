@@ -1,0 +1,48 @@
+/* Liva v0.1 — proposta de tokens. Não implantar diretamente sem validar acessibilidade e a stack. */
+:root {
+  --liva-brand-green: #77A899;
+  --liva-brand-amber: #F0C78B;
+  --liva-brand-sand: #F7EFE4;
+  --liva-brand-sage: #E4EDE8;
+  --liva-brand-deep: #293D37;
+
+  --liva-bg: #FCFBF8;
+  --liva-surface: #FFFFFF;
+  --liva-surface-muted: #F7EFE4;
+  --liva-surface-selected: #E4EDE8;
+  --liva-fg: #293D37;
+  --liva-fg-muted: #42564F;
+  --liva-border: #CAD9D1;
+  --liva-action-bg: #293D37;
+  --liva-action-fg: #FFFFFF;
+  --liva-focus: #293D37;
+
+  --liva-font-sans: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --liva-radius-control: 12px;
+  --liva-radius-card: 18px;
+  --liva-min-touch: 44px;
+  --liva-motion-fast: 160ms;
+  --liva-motion-feedback: 240ms;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --liva-bg: #17231F;
+    --liva-surface: #21312B;
+    --liva-surface-muted: #293D37;
+    --liva-surface-selected: #345044;
+    --liva-fg: #F7F8F5;
+    --liva-fg-muted: #D9E6DD;
+    --liva-border: #577367;
+    --liva-action-bg: #DCECE3;
+    --liva-action-fg: #17231F;
+    --liva-focus: #F0C78B;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --liva-motion-fast: 0ms;
+    --liva-motion-feedback: 0ms;
+  }
+}
