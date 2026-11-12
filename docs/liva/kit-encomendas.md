@@ -27,3 +27,23 @@ Crie UMA ilustração do universo Liva: [ASSUNTO]. Miniatura arquitetônica em p
 
 ## Próximas etapas
 Validar o conjunto visual, exportar individualmente e aplicar na branch de desenvolvimento. Não realizar deploy por decisão de identidade visual.
+
+## Organização definitiva de assets — v0.1
+
+A biblioteca distingue **assets de marca compartilhados** e **assets do produto**:
+
+```text
+assets/liva/
+├── shared/
+│   └── condominio.png
+└── products/
+    └── encomendas/
+        ├── encomenda.png
+        ├── leitura-ia.png
+        ├── entrega-concluida.png
+        └── tudo-em-dia.png
+```
+
+O arquivo de integração deve manter a assinatura **`encomendas.liva`** em texto Plus Jakarta Sans com ponto separador âmbar; **não embutir marca nas ilustrações**.
+
+**Estado de publicação:** os cinco PNGs foram preparados como pacote local de produção, mas os binários **ainda não foram enviados ao GitHub**. O guia e os caminhos estão publicados. Não presumir que o frontend pode importar estes caminhos até a confirmação do commit dos arquivos PNG.
