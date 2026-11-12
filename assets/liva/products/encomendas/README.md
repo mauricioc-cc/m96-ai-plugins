@@ -1,5 +1,13 @@
-# Assets — encomendas.liva
+# Biblioteca do produto — encomendas.liva
 
-Quatro PNGs isométricos específicos para o produto: `encomenda.png`, `leitura-ia.png`, `entrega-concluida.png`, `tudo-em-dia.png`.
+Assinatura do produto: `encomendas.liva`, minúscula, em **texto Plus Jakarta Sans**, com **somente o ponto separador em âmbar**. Nenhum asset contém marca.
 
-**Status:** os PNGs estão no pacote v0.1 para importação e ainda não foram commitados no GitHub. Os assets não contêm texto de marca; a assinatura `encomendas.liva` é tipográfica.
+## Inventário v0.2 (conceitos e destinos)
+- `encomenda.png` — **somente uma caixa**;
+- `leitura-ia.png` — caixa + marcador mínimo de scan;
+- `entrega-concluida.png` — caixa + check;
+- `tudo-em-dia.png` — reutilizar inicialmente caixa + check; o estado deve ser explicado pelo texto da UI.
+
+**Atenção:** os quatro PNGs nestes caminhos ainda são da **v0.1**, com cenas mais elaboradas. **Não confundir presença de arquivo com migração concluída.** A substituição dos PNGs pelo kit v0.2 permanece pendente, sem alteração no app em produção.
+
+Veja `docs/liva/kit-encomendas.md`.
