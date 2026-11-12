@@ -5,6 +5,15 @@
 **Escopo:** aplicações da suíte liva (encomendas, visitas, serviços e futuras).  
 **Marca-mãe:** M96; consulte [filosofia de produto](../filosofia-de-produto.md). A liva **não herda** a paleta noturna da identidade pessoal M96.
 
+## Regra oficial de assinatura da marca
+
+- Escrever a marca **sempre como `liva.`**, em letras minúsculas e com ponto final integrante da assinatura, seguindo o caráter pessoal e minimalista de `mau.`.
+- O **ponto deve ter destaque cromático âmbar `#F0C78B`** no uso colorido; as letras ficam preferencialmente em verde profundo `#293D37` sobre fundo claro, ou claras sobre fundo escuro.
+- Em aplicações monocromáticas, o ponto mantém a forma mas acompanha a cor única.
+- Não usar `Liva`, `LIVA` ou remover o ponto em logotipos, cabeçalhos de marca e peças gráficas. Em textos corridos, nomes técnicos, endereços e metadados, respeitar legibilidade e convenções técnicas sem colorização obrigatória.
+- Para o produto Encomendas, a assinatura visual pode ser `encomendas.liva.`; isso **não substitui nem determina o endereço DNS real**.
+- Manter o ponto como elemento tipográfico, não como indicador de status ou elemento funcional.
+
 ## 1. Personalidade e norte
 
 **Promessa de comunicação (proposta, ainda não slogan registrado):** “A vida no condomínio, mais simples.”
