@@ -2,7 +2,7 @@
 
 Status: estudo visual e especificação de geração. O repositório Encomendas contém SPEC.md e AGENTS.md, mas não o código das telas; os usos sugeridos ainda precisam ser conferidos no frontend.
 
-**Assinatura de marca:** `liva.` sempre minúscula, com ponto final destacado em âmbar `#F0C78B` no uso colorido. As ilustrações não devem conter lettering; a assinatura deve ser aplicada pelo layout com asset dedicado. Consulte [a regra oficial de marca](identidade-visual.md#regra-oficial-de-assinatura-da-marca).
+**Assinatura isolada da marca:** `liva.` em minúsculas, com ponto âmbar `#F0C78B`. **Assinatura do produto:** `encomendas.liva`, também toda em minúsculas, com o único ponto **separador** destacado em âmbar, sem ponto extra no fim. As ilustrações não contêm lettering; aplicar a assinatura pelo layout. Consulte [a regra oficial de marca](identidade-visual.md#regra-oficial-de-assinatura-da-marca).
 
 ## Cinco conceitos prioritários
 1. Casa/condomínio: boas-vindas e identidade.
