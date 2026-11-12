@@ -1,4 +1,4 @@
-# liva — identidade visual para produtos (v0.1)
+# liva. — identidade visual para produtos (v0.1 + sistema isométrico v0.2)
 
 **Status:** direção Vila aprovada; regras de implementação aprovadas como ponto de partida, sujeitas a testes.  
 **Data:** 2026-11-11  
@@ -57,13 +57,13 @@ Veja [tokens.css](tokens.css). O arquivo é um **contrato inicial de design**, n
 - Textos de labels, números, botões e confirmação devem continuar legíveis no celular e iPad.
 - Hierarquia por peso, espaço e tamanho — não apenas por diferença sutil de cor.
 - Não reduzir legibilidade para reproduzir uma composição de marketing.
-- O lettering `liva.` dos estudos ainda é exploratório; não presumir que texto genérico em Plus Jakarta Sans reproduz fielmente o logo.
+- A assinatura da marca nesta fase é **texto renderizado com Plus Jakarta Sans**, em minúsculas, com ponto âmbar. Não depender de lettering rasterizado em imagens ou de logotipo especial ainda não aprovado.
 
 ## 4. Marca: símbolo e assinatura
 
 **Grafia da marca:** sempre **liva**, em minúsculas, inclusive no início de frases, em títulos, links e metadados. A assinatura textual do produto de encomendas é **encomendas.liva**.
 
-**Direção escolhida:** casa isométrica em pequena base verde, com teto verde e abertura iluminada. Assinatura `liva.`, em verde profundo, com ponto âmbar.
+**Direção escolhida:** casa isométrica simplificada, isolada, com teto verde. Assinatura tipográfica `liva.`, em verde profundo, com ponto âmbar; sem base decorativa obrigatória.
 
 - Ícone principal: casa isométrica; reforça lar, portaria e convivência.
 - Logo horizontal: símbolo + wordmark `liva.`, com espaço de respiro.
@@ -74,6 +74,8 @@ Veja [tokens.css](tokens.css). O arquivo é um **contrato inicial de design**, n
 - Ativos experimentais do kit devem ser conferidos visualmente na integração; não tratar mockups ou imagem gerada como layout pixel-perfect, arquivo vetorial definitivo ou especificação técnica de componentes.
 
 ## 5. Sistema isométrico
+
+**Direção aprovada v0.2: objetos minimalistas isolados.** Os assets da liva. devem ser objetivos, modulares e conter somente os elementos necessários à identificação do objeto ou ação. Uma casa = uma casa, um prédio = um prédio, uma caixa = uma caixa. Estados compostos usam até dois elementos conceituais essenciais (ex.: caixa + scan ou caixa + check). **Evitar ceninhas**, paisagismo, bases decorativas e texto embutido nas imagens. A assinatura da marca permanece texto Plus Jakarta Sans separado das ilustrações. Consulte [kit Encomendas v0.2](kit-encomendas.md).
 
 A isometria é a linguagem de **ilustração da marca**, não substitui toda iconografia da UI.
 
