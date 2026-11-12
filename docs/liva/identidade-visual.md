@@ -1,9 +1,9 @@
-# Liva — identidade visual para produtos (v0.1)
+# liva — identidade visual para produtos (v0.1)
 
 **Status:** direção Vila aprovada; regras de implementação aprovadas como ponto de partida, sujeitas a testes.  
 **Data:** 2026-11-11  
-**Escopo:** aplicações da suíte Liva (encomendas, visitas, serviços e futuras).  
-**Marca-mãe:** M96; consulte [filosofia de produto](../filosofia-de-produto.md). A Liva **não herda** a paleta noturna da identidade pessoal M96.
+**Escopo:** aplicações da suíte liva (encomendas, visitas, serviços e futuras).  
+**Marca-mãe:** M96; consulte [filosofia de produto](../filosofia-de-produto.md). A liva **não herda** a paleta noturna da identidade pessoal M96.
 
 ## 1. Personalidade e norte
 
@@ -18,13 +18,13 @@
 
 | Token de referência | Valor HEX | Intenção |
 | --- | --- | --- |
-| Verde Liva | `#77A899` | marca, superfícies de apoio, áreas ilustradas |
+| Verde liva | `#77A899` | marca, superfícies de apoio, áreas ilustradas |
 | Âmbar | `#F0C78B` | acento caloroso e detalhes, incluindo ponto do logo |
 | Areia | `#F7EFE4` | superfícies suaves e acolhedoras |
 | Sálvia | `#E4EDE8` | superfícies secundárias e seleção |
 | Verde Profundo | `#293D37` | texto principal, ações com contraste |
 
-**Acessibilidade precede fidelidade literal à paleta:** não use Verde Liva ou Âmbar como texto pequeno sobre branco, nem presuma que Verde Liva com texto branco serve para botão de uso frequente. Use Verde Profundo em texto/ação principal; avalie WCAG AA para cada combinação, inclusive estados hover, disabled, foco e dark mode. Cores semânticas (erro, alerta, sucesso, informação) devem comunicar o estado por texto e ícone, além da cor; não equipare âmbar automaticamente a sucesso.
+**Acessibilidade precede fidelidade literal à paleta:** não use Verde liva ou Âmbar como texto pequeno sobre branco, nem presuma que Verde liva com texto branco serve para botão de uso frequente. Use Verde Profundo em texto/ação principal; avalie WCAG AA para cada combinação, inclusive estados hover, disabled, foco e dark mode. Cores semânticas (erro, alerta, sucesso, informação) devem comunicar o estado por texto e ícone, além da cor; não equipare âmbar automaticamente a sucesso.
 
 ### Tokens semânticos propostos
 
@@ -34,7 +34,7 @@ Veja [tokens.css](tokens.css). O arquivo é um **contrato inicial de design**, n
 - Superfícies: branco e areia, com separações sutis.
 - Textos: verde profundo; hierarquia secundária sempre legível.
 - Ação primária: fundo verde profundo com texto claro.
-- Destaques: verde Liva em fundos, contornos e detalhes, desde que legíveis.
+- Destaques: verde liva em fundos, contornos e detalhes, desde que legíveis.
 - Links: usar um tom escuro com sublinhado ou outra indicação que não dependa apenas de cor.
 - Tema: o sistema anterior de Encomendas segue a **preferência claro/escuro do dispositivo**, conforme SPEC. Construir variação escura coerente e legível; não impor sempre modo claro sem decisão específica de produto.
 
@@ -49,6 +49,8 @@ Veja [tokens.css](tokens.css). O arquivo é um **contrato inicial de design**, n
 - O lettering `liva.` dos estudos ainda é exploratório; não presumir que texto genérico em Plus Jakarta Sans reproduz fielmente o logo.
 
 ## 4. Marca: símbolo e assinatura
+
+**Grafia da marca:** sempre **liva**, em minúsculas, inclusive no início de frases, em títulos, links e metadados. A assinatura textual do produto de encomendas é **encomendas.liva**.
 
 **Direção escolhida:** casa isométrica em pequena base verde, com teto verde e abertura iluminada. Assinatura `liva.`, em verde profundo, com ponto âmbar.
 
@@ -95,7 +97,7 @@ A marca é **light-first visualmente**, não necessariamente light-only funciona
 
 - Encomendas já segue tema do sistema; preservar na evolução até aprovação de mudança.
 - Dark mode deve adaptar papéis semânticos de superfície, texto, contraste e foco; não inverter cores automaticamente.
-- Evitar transplantar a estética escura M96 para o tema escuro Liva: manter calma, neutralidade e verde Liva como acento.
+- Evitar transplantar a estética escura M96 para o tema escuro liva: manter calma, neutralidade e verde liva como acento.
 
 ## 9. Checklist para agente / pull request
 

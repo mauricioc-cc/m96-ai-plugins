@@ -14,8 +14,8 @@ A diretriz é transversal, não limitada ao sistema de encomendas. Ela estabelec
 
 Ao propor mudanças, identifique usuário, problema, principal fluxo, fricção introduzida/removida, feedback, impacto sobre o gratuito e riscos. Distingua hipóteses de fatos.
 
-## Produtos da suíte Liva
+## Produtos da suíte liva
 
-Para qualquer interface Liva, seguir também **[docs/liva/identidade-visual.md](docs/liva/identidade-visual.md)** e os [tokens semânticos](docs/liva/tokens.css). A identidade Liva é independente da identidade pessoal noturna M96. Os ativos v0.1 são passíveis de refinamento e não justificam alterações de comportamento.
+Para qualquer interface liva, seguir também **[docs/liva/identidade-visual.md](docs/liva/identidade-visual.md)** e os [tokens semânticos](docs/liva/tokens.css). A identidade liva é independente da identidade pessoal noturna M96. Os ativos v0.1 são passíveis de refinamento e não justificam alterações de comportamento.
 
 As regras específicas de cada projeto, incluindo segurança, dados e requisitos funcionais, continuam aplicáveis. Não publique, altere produção ou execute operações destrutivas sem a autorização exigida pelo projeto.
