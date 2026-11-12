@@ -1,49 +1,56 @@
-# liva. — kit de ilustrações Encomendas v0.1
+# liva. — kit minimalista de objetos isométricos v0.2
 
-Status: estudo visual e especificação de geração. O repositório Encomendas contém SPEC.md e AGENTS.md, mas não o código das telas; os usos sugeridos ainda precisam ser conferidos no frontend.
+**Status:** direção visual e inventário v0.2 aprovados para geração/curadoria. **Os PNGs v0.2 ainda não foram enviados ao GitHub.** Os PNGs do v0.1 continuam presentes, e não devem ser tratados como v0.2.
 
-**Assinatura isolada da marca:** `liva.` em minúsculas, com ponto âmbar `#F0C78B`. **Assinatura do produto:** `encomendas.liva`, também toda em minúsculas, com o único ponto **separador** destacado em âmbar, sem ponto extra no fim. As ilustrações não contêm lettering; aplicar a assinatura pelo layout. Consulte [a regra oficial de marca](identidade-visual.md#regra-oficial-de-assinatura-da-marca).
+## Princípio visual
 
-## Cinco conceitos prioritários
-1. Casa/condomínio: boas-vindas e identidade.
-2. Encomenda: fluxo de recebimento.
-3. Leitura de etiqueta: processamento assistido por IA.
-4. Entrega concluída: confirmação após assinatura.
-5. Tudo em dia: nenhuma encomenda pendente.
+**Os assets da liva. devem ser objetivos, modulares e compostos pelo menor número de elementos possível.** Cada imagem representa **um objeto isolado** ou **um conceito mínimo** reconhecível. Sem ceninhas, paisagismo, bases elaboradas, mobiliário ou elementos adicionais que não expliquem a ação.
 
-Separar, quando necessário, uma ilustração de base sem registros de outra de tudo entregue.
+Exemplos: casa = somente casa; prédio = somente prédio; portaria = somente guarita; encomenda = somente caixa; leitura por IA = caixa + indicador de scan; entrega concluída = caixa + check.
 
-## Prompt-base oficial
-Crie UMA ilustração do universo Liva: [ASSUNTO]. Miniatura arquitetônica em perspectiva isométrica constante, formas suavemente arredondadas, poucos detalhes, volumes limpos e sombra difusa delicada. Paleta verde #77A899, âmbar #F0C78B, areia #F7EFE4, sálvia #E4EDE8, verde profundo #293D37; papelão natural permitido. Objeto isolado, centralizado, margens amplas, legível em 160px, sem palavras, números, logo ou interface. Fundo transparente real. Preservar iluminação, escala e perspectiva das referências aprovadas.
+A marca isolada é `liva.`. A assinatura de produto é `encomendas.liva`: minúsculas, apenas o ponto separador destacado em âmbar `#F0C78B`, sem ponto final adicional. **A marca é tipografia no layout (Plus Jakarta Sans), nunca lettering dentro das ilustrações.**
 
-## Padrão de entrega
-- Um assunto por arquivo; não tratar uma prancha ilustrada como arquivos isolados.
-- PNG sRGB, transparência verdadeira, mestre de 1024x1024; exportações menores otimizadas conforme necessidade.
-- Nomes: liva-condominio.png; liva-encomenda.png; liva-leitura-ia.png; liva-entrega-concluida.png; liva-tudo-em-dia.png.
-- Conferir cortes, sombras, escala aparente, fundo, artefatos e textos inventados.
-- Manter as imagens fora de botões de navegação: ícones funcionais continuam lineares.
-- Não ocupar espaço útil em formulários, listas ou área de assinatura por decoração.
-- Integrar apenas após teste com as jornadas reais de celular/iPad e sem alterar regras de negócio.
+## Inventário v0.2 e responsabilidades
 
-## Próximas etapas
-Validar o conjunto visual, exportar individualmente e aplicar na branch de desenvolvimento. Não realizar deploy por decisão de identidade visual.
+| Categoria | Caminho alvo | Conceito | Uso típico |
+| --- | --- | --- | --- |
+| Compartilhado | `assets/liva/shared/casa.png` | Uma casa isolada | Contexto residencial/horizontal |
+| Compartilhado | `assets/liva/shared/predio.png` | Um prédio isolado | Contexto vertical |
+| Compartilhado | `assets/liva/shared/portaria.png` | Uma guarita isolada | Operação de portaria |
+| Encomendas | `assets/liva/products/encomendas/encomenda.png` | Uma caixa isolada | Recebimento e produto |
+| Encomendas | `assets/liva/products/encomendas/leitura-ia.png` | Uma caixa + scan discreto | Processamento pela IA |
+| Encomendas | `assets/liva/products/encomendas/entrega-concluida.png` | Uma caixa + check | Entrega confirmada |
+| Encomendas | `assets/liva/products/encomendas/tudo-em-dia.png` | Caixa + check **temporariamente reutilizados** | Nenhuma encomenda pendente; distinguir pelo texto da UI |
 
-## Organização definitiva de assets — v0.1
+Para `tudo-em-dia.png`, o v0.2 pode usar **a mesma arte** de `entrega-concluida.png`, mesmo que em dois arquivos, evitando gerar outra ilustração agora. O estado de nenhuma encomenda **jamais registrada** é diferente de ausência de pendências; o texto e os dados devem refletir isso.
 
-A biblioteca distingue **assets de marca compartilhados** e **assets do produto**:
+## Especificação de produção
 
-```text
-assets/liva/
-├── shared/
-│   └── condominio.png
-└── products/
-    └── encomendas/
-        ├── encomenda.png
-        ├── leitura-ia.png
-        ├── entrega-concluida.png
-        └── tudo-em-dia.png
-```
+- Estilo: perspectiva isométrica uniforme, forma suave arredondada, volumes simples, luz e sombra discretas, sem hiper-realismo.
+- Cores: verde liva `#77A899`, âmbar `#F0C78B`, areia `#F7EFE4`, sálvia `#E4EDE8`, verde profundo `#293D37`. Usar tons adicionais só quando essenciais para entendimento.
+- Um asset por PNG, fundo verdadeiramente transparente, perfil sRGB; manter consistência visual e tamanho aparente entre arquivos.
+- Sem palavras, números, logos, etiquetas legíveis ou decoração desnecessária.
+- Sempre testar legibilidade em tamanhos pequenos. A imagem é ilustrativa, **não substitui ícone funcional ou rótulo textual**.
 
-O arquivo de integração deve manter a assinatura **`encomendas.liva`** em texto Plus Jakarta Sans com ponto separador âmbar; **não embutir marca nas ilustrações**.
+## Prompt-base v0.2
 
-**Estado de publicação:** os cinco PNGs foram preparados como pacote local de produção, mas os binários **ainda não foram enviados ao GitHub**. O guia e os caminhos estão publicados. Não presumir que o frontend pode importar estes caminhos até a confirmação do commit dos arquivos PNG.
+> Crie **um único objeto isométrico isolado** da identidade liva.: [OBJETO]. Perspectiva e escala consistentes com os objetos aprovados. Formas minimalistas, suavemente arredondadas, volumetria limpa, sombras discretas e paleta da liva. Apenas o objeto essencial, centralizado, reconhecível em 160px e com margens generosas. Fundo transparente. **Sem base, paisagismo, cenário, outros objetos, texto, números, lettering, logo ou efeitos decorativos.** Para estados compostos, permitir somente [OBJETO] + [MARCADOR FUNCIONAL MÍNIMO].
+
+## Diretrizes de aplicação
+
+- Usar imagens apenas quando oferecem contexto ou feedback (ex.: estado vazio, processamento de IA, confirmação), sem atrapalhar a rotina do porteiro.
+- Botões e ações de interface usam ícones lineares convencionais e labels.
+- Preservar fluxo de recebimento, revisão da IA, assinatura, filtros e compartilhamento, sem mudanças de negócio.
+- Aplicar primeiro em branch de desenvolvimento, revisar acessibilidade, celular e iPad.
+- Não publicar alterações em produção sem decisão explícita.
+
+## Migração a partir do v0.1
+
+**Situação conferida anteriormente no GitHub:** os PNGs v0.1 estão nos caminhos:
+`shared/condominio.png`,
+`products/encomendas/encomenda.png`,
+`products/encomendas/leitura-ia.png`,
+`products/encomendas/entrega-concluida.png`,
+`products/encomendas/tudo-em-dia.png`.
+
+**Estes caminhos não implicam que os arquivos sejam v0.2.** A atualização dos quatro PNGs de produto e a adição de `casa.png`, `predio.png`, `portaria.png` são pendências. O `condominio.png` antigo deve permanecer como legado até verificação de dependências; não apagar automaticamente. Confirmar arquivos novos no GitHub antes de alterá-los na aplicação.
