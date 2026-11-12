@@ -10,8 +10,10 @@
 - Escrever a marca **sempre como `liva.`**, em letras minúsculas e com ponto final integrante da assinatura, seguindo o caráter pessoal e minimalista de `mau.`.
 - O **ponto deve ter destaque cromático âmbar `#F0C78B`** no uso colorido; as letras ficam preferencialmente em verde profundo `#293D37` sobre fundo claro, ou claras sobre fundo escuro.
 - Em aplicações monocromáticas, o ponto mantém a forma mas acompanha a cor única.
-- Não usar `Liva`, `LIVA` ou remover o ponto em logotipos, cabeçalhos de marca e peças gráficas. Em textos corridos, nomes técnicos, endereços e metadados, respeitar legibilidade e convenções técnicas sem colorização obrigatória.
-- Para o produto Encomendas, a assinatura visual pode ser `encomendas.liva.`; isso **não substitui nem determina o endereço DNS real**.
+- Não usar `Liva`, `LIVA` ou remover o ponto em logotipos isolados; nas assinaturas de produto não remover o **ponto separador**, nem acrescentar um segundo ponto final. Em textos corridos, nomes técnicos, endereços e metadados, respeitar legibilidade e convenções técnicas sem colorização obrigatória.
+- **Assinatura dos produtos:** `encomendas.liva`, `visitas.liva`, `servicos.liva` — sempre em minúsculas, com **um único ponto entre o nome do produto e `liva`**, destacado em âmbar `#F0C78B`, no espírito de `radar.mau`. **Não acrescentar ponto final depois de `liva`** nessas assinaturas compostas.
+- A forma isolada da marca permanece `liva.` (com ponto final âmbar). As assinaturas compostas seguem a regra diferente acima.
+- A assinatura visual **não substitui nem determina o endereço DNS real** (ex.: `encomendas.liva.bhz.br`), nem obriga o texto do domínio a ter a mesma cor.
 - Manter o ponto como elemento tipográfico, não como indicador de status ou elemento funcional.
 
 ## 1. Personalidade e norte
