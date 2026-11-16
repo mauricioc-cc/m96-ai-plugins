@@ -1,4 +1,4 @@
-# liva. — identidade visual para produtos (v0.1 + sistema isométrico v0.2)
+# liva — identidade visual para produtos (v0.1 + sistema isométrico v0.2)
 
 **Status:** direção Vila aprovada; regras de implementação aprovadas como ponto de partida, sujeitas a testes.  
 **Data:** 2026-11-11  
@@ -7,14 +7,10 @@
 
 ## Regra oficial de assinatura da marca
 
-- Escrever a marca **sempre como `liva.`**, em letras minúsculas e com ponto final integrante da assinatura, seguindo o caráter pessoal e minimalista de `mau.`.
-- O **ponto deve ter destaque cromático âmbar `#F0C78B`** no uso colorido; as letras ficam preferencialmente em verde profundo `#293D37` sobre fundo claro, ou claras sobre fundo escuro.
-- Em aplicações monocromáticas, o ponto mantém a forma mas acompanha a cor única.
-- Não usar `Liva`, `LIVA` ou remover o ponto em logotipos isolados; nas assinaturas de produto não remover o **ponto separador**, nem acrescentar um segundo ponto final. Em textos corridos, nomes técnicos, endereços e metadados, respeitar legibilidade e convenções técnicas sem colorização obrigatória.
-- **Assinatura dos produtos:** `encomendas.liva`, `visitas.liva`, `servicos.liva` — sempre em minúsculas, com **um único ponto entre o nome do produto e `liva`**, destacado em âmbar `#F0C78B`, no espírito de `radar.mau`. **Não acrescentar ponto final depois de `liva`** nessas assinaturas compostas.
-- A forma isolada da marca permanece `liva.` (com ponto final âmbar). As assinaturas compostas seguem a regra diferente acima.
-- A assinatura visual **não substitui nem determina o endereço DNS real** (ex.: `encomendas.liva.bhz.br`), nem obriga o texto do domínio a ter a mesma cor.
-- Manter o ponto como elemento tipográfico, não como indicador de status ou elemento funcional.
+- Escrever a assinatura isolada como **`liva`**, sempre em minúsculas e sem ponto final.
+- **Assinatura dos produtos:** `encomendas.liva`, `visitas.liva`, `servicos.liva`, em minúsculas, com **um único ponto entre o nome do produto e `liva`**. Use âmbar `#F0C78B` no separador em aplicações coloridas e a cor única da assinatura em aplicações monocromáticas.
+- Na versão colorida, as letras ficam preferencialmente em verde profundo `#293D37` sobre fundo claro ou claras sobre fundo escuro.
+- Manter a grafia em minúsculas nos títulos, links e metadados. Os endereços DNS seguem sua forma técnica (ex.: `encomendas.liva.bhz.br`).
 
 ## 1. Personalidade e norte
 
@@ -30,7 +26,7 @@
 | Token de referência | Valor HEX | Intenção |
 | --- | --- | --- |
 | Verde liva | `#77A899` | marca, superfícies de apoio, áreas ilustradas |
-| Âmbar | `#F0C78B` | acento caloroso e detalhes, incluindo ponto do logo |
+| Âmbar | `#F0C78B` | acento caloroso e detalhes, incluindo o separador das assinaturas de produto |
 | Areia | `#F7EFE4` | superfícies suaves e acolhedoras |
 | Sálvia | `#E4EDE8` | superfícies secundárias e seleção |
 | Verde Profundo | `#293D37` | texto principal, ações com contraste |
@@ -57,16 +53,16 @@ Veja [tokens.css](tokens.css). O arquivo é um **contrato inicial de design**, n
 - Textos de labels, números, botões e confirmação devem continuar legíveis no celular e iPad.
 - Hierarquia por peso, espaço e tamanho — não apenas por diferença sutil de cor.
 - Não reduzir legibilidade para reproduzir uma composição de marketing.
-- A assinatura da marca nesta fase é **texto renderizado com Plus Jakarta Sans**, em minúsculas, com ponto âmbar. Não depender de lettering rasterizado em imagens ou de logotipo especial ainda não aprovado.
+- A assinatura da marca nesta fase é **texto renderizado com Plus Jakarta Sans**, em minúsculas. Não depender de lettering rasterizado em imagens ou de logotipo especial ainda não aprovado.
 
 ## 4. Marca: símbolo e assinatura
 
 **Grafia da marca:** sempre **liva**, em minúsculas, inclusive no início de frases, em títulos, links e metadados. A assinatura textual do produto de encomendas é **encomendas.liva**.
 
-**Direção escolhida:** casa isométrica simplificada, isolada, com teto verde. Assinatura tipográfica `liva.`, em verde profundo, com ponto âmbar; sem base decorativa obrigatória.
+**Direção escolhida:** casa isométrica simplificada, isolada, com teto verde. Assinatura tipográfica `liva`, em verde profundo; sem base decorativa obrigatória.
 
 - Ícone principal: casa isométrica; reforça lar, portaria e convivência.
-- Logo horizontal: símbolo + wordmark `liva.`, com espaço de respiro.
+- Logo horizontal: símbolo + wordmark `liva`, com espaço de respiro.
 - Versões: fundo claro, fundo escuro, monocromático.
 - Redução extrema: símbolo simplificado inspirado na mesma casa. O kit atual é **v0.1**, passível de refinamento para evitar aparência de caixa.
 - Não redesenhar o logo em cada tela; consumir ativos centralizados e manter proporções.
@@ -75,7 +71,7 @@ Veja [tokens.css](tokens.css). O arquivo é um **contrato inicial de design**, n
 
 ## 5. Sistema isométrico
 
-**Direção aprovada v0.2: objetos minimalistas isolados.** Os assets da liva. devem ser objetivos, modulares e conter somente os elementos necessários à identificação do objeto ou ação. Uma casa = uma casa, um prédio = um prédio, uma caixa = uma caixa. Estados compostos usam até dois elementos conceituais essenciais (ex.: caixa + scan ou caixa + check). **Evitar ceninhas**, paisagismo, bases decorativas e texto embutido nas imagens. A assinatura da marca permanece texto Plus Jakarta Sans separado das ilustrações. Consulte [kit Encomendas v0.2](kit-encomendas.md).
+**Direção aprovada v0.2: objetos minimalistas isolados.** Os assets da liva devem ser objetivos, modulares e conter somente os elementos necessários à identificação do objeto ou ação. Uma casa = uma casa, um prédio = um prédio, uma caixa = uma caixa. Estados compostos usam até dois elementos conceituais essenciais (ex.: caixa + scan ou caixa + check). **Evitar ceninhas**, paisagismo, bases decorativas e texto embutido nas imagens. A assinatura da marca permanece texto Plus Jakarta Sans separado das ilustrações. Consulte [kit Encomendas v0.2](kit-encomendas.md).
 
 A isometria é a linguagem de **ilustração da marca**, não substitui toda iconografia da UI.
 

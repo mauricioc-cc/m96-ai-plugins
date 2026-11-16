@@ -1,14 +1,14 @@
-# liva. — kit minimalista de objetos isométricos v0.2
+# liva — kit minimalista de objetos isométricos v0.2
 
 **Status:** direção visual e inventário v0.2 aprovados para geração/curadoria. **Os PNGs v0.2 ainda não foram enviados ao GitHub.** Os PNGs do v0.1 continuam presentes, e não devem ser tratados como v0.2.
 
 ## Princípio visual
 
-**Os assets da liva. devem ser objetivos, modulares e compostos pelo menor número de elementos possível.** Cada imagem representa **um objeto isolado** ou **um conceito mínimo** reconhecível. Sem ceninhas, paisagismo, bases elaboradas, mobiliário ou elementos adicionais que não expliquem a ação.
+**Os assets da liva devem ser objetivos, modulares e compostos pelo menor número de elementos possível.** Cada imagem representa **um objeto isolado** ou **um conceito mínimo** reconhecível. Sem ceninhas, paisagismo, bases elaboradas, mobiliário ou elementos adicionais que não expliquem a ação.
 
 Exemplos: casa = somente casa; prédio = somente prédio; portaria = somente guarita; encomenda = somente caixa; leitura por IA = caixa + indicador de scan; entrega concluída = caixa + check.
 
-A marca isolada é `liva.`. A assinatura de produto é `encomendas.liva`: minúsculas, apenas o ponto separador destacado em âmbar `#F0C78B`, sem ponto final adicional. **A marca é tipografia no layout (Plus Jakarta Sans), nunca lettering dentro das ilustrações.**
+A marca isolada é `liva`. A assinatura de produto é `encomendas.liva`: minúsculas, apenas o ponto separador destacado em âmbar `#F0C78B`, sem ponto final adicional. **A marca é tipografia no layout (Plus Jakarta Sans), nunca lettering dentro das ilustrações.**
 
 ## Inventário v0.2 e responsabilidades
 
@@ -34,7 +34,7 @@ Para `tudo-em-dia.png`, o v0.2 pode usar **a mesma arte** de `entrega-concluida.
 
 ## Prompt-base v0.2
 
-> Crie **um único objeto isométrico isolado** da identidade liva.: [OBJETO]. Perspectiva e escala consistentes com os objetos aprovados. Formas minimalistas, suavemente arredondadas, volumetria limpa, sombras discretas e paleta da liva. Apenas o objeto essencial, centralizado, reconhecível em 160px e com margens generosas. Fundo transparente. **Sem base, paisagismo, cenário, outros objetos, texto, números, lettering, logo ou efeitos decorativos.** Para estados compostos, permitir somente [OBJETO] + [MARCADOR FUNCIONAL MÍNIMO].
+> Crie **um único objeto isométrico isolado** da identidade liva: [OBJETO]. Perspectiva e escala consistentes com os objetos aprovados. Formas minimalistas, suavemente arredondadas, volumetria limpa, sombras discretas e paleta da liva. Apenas o objeto essencial, centralizado, reconhecível em 160px e com margens generosas. Fundo transparente. **Sem base, paisagismo, cenário, outros objetos, texto, números, lettering, logo ou efeitos decorativos.** Para estados compostos, permitir somente [OBJETO] + [MARCADOR FUNCIONAL MÍNIMO].
 
 ## Diretrizes de aplicação
 
