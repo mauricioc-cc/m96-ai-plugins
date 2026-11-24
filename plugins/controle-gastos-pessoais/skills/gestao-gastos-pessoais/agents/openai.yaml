@@ -1,7 +1,0 @@
-interface:
-  display_name: "Gestão de gastos pessoais"
-  short_description: "Organiza gastos com Meu Pluggy, arquivos, Drive ou CSV"
-  default_prompt: "Use $gestao-gastos-pessoais para organizar minhas despesas, importar lançamentos ou analisar meus gastos."
-
-policy:
-  allow_implicit_invocation: true
