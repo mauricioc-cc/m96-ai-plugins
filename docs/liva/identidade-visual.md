@@ -89,6 +89,7 @@ A isometria é a linguagem de **ilustração da marca**, não substitui toda ico
 - Áreas de toque preferencialmente >= 44×44 CSS px; campos devem manter tamanho e teclado adequados; suporte a zoom sem quebra.
 - Botão primário óbvio; ação destrutiva deliberadamente diferenciada; saída discreta e não confundida com “voltar”.
 - Modal: rolagem interna quando necessário, tela de fundo bloqueada, foco e teclado acessíveis, ações nunca cortadas.
+- Para a mesma ação ou estado entre produtos liva, reuse os componentes e tokens já adotados. Preserve medidas responsivas, espaçamentos, bordas, foco e a ordem e a posição dos botões. Nas confirmações em tela cheia, use a mesma área de ilustração e a mesma animação. A ilustração representa a operação de cada produto. Compare lado a lado em celular, iPad e desktop durante a revisão.
 - Busca, revisão humana da extração de IA, seleção manual de entregas, captura de assinatura e compartilhamento devem seguir os requisitos específicos de cada produto.
 - Formulários: labels persistentes, erros próximos ao campo, foco visível e estados de carregamento claros.
 
